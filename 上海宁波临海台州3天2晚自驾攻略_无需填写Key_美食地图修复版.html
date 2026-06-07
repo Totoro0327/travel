@@ -1,0 +1,750 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>上海出发｜宁波·临海·台州 3天2晚自驾攻略</title>
+<script src="https://webapi.amap.com/loader.js"></script>
+<style>
+:root{
+  --bg:#f6fbf7;--ink:#173b31;--muted:#607a70;--green:#1f7a4a;--blue:#2563eb;
+  --orange:#f97316;--purple:#7c3aed;--red:#ef4444;--card:rgba(255,255,255,.78);
+  --line:rgba(31,122,74,.14);--shadow:0 18px 48px rgba(18,55,43,.14);--radius:26px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Microsoft YaHei",Arial,sans-serif;
+  background:
+    radial-gradient(circle at 10% 0%,rgba(255,231,165,.62),transparent 24%),
+    radial-gradient(circle at 92% 5%,rgba(194,232,255,.55),transparent 25%),
+    radial-gradient(circle at 42% 100%,rgba(199,244,215,.72),transparent 34%),
+    linear-gradient(180deg,#fffaf1 0%,var(--bg) 44%,#eef9f3 100%);
+}
+.page{width:min(1480px,calc(100vw - 34px));margin:auto;padding:18px 0 56px}
+.topbar{
+  position:sticky;top:0;z-index:60;margin:0 -8px 18px;padding:10px;
+  background:rgba(246,251,247,.72);backdrop-filter:blur(18px);
+  border-bottom:1px solid rgba(31,122,74,.08)
+}
+.topbar-inner{max-width:1480px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;color:var(--green);white-space:nowrap}
+.badge{width:38px;height:38px;border-radius:15px;display:grid;place-items:center;background:#fff;box-shadow:0 8px 22px rgba(31,122,74,.14)}
+nav{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+a,.btn{
+  border:0;appearance:none;cursor:pointer;text-decoration:none;color:var(--ink);
+  padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.78);
+  border:1px solid rgba(31,122,74,.1);font-weight:800;font-size:14px;
+  box-shadow:0 8px 20px rgba(18,55,43,.08)
+}
+.btn.primary{background:linear-gradient(135deg,#1f7a4a,#38a863);color:#fff}
+.btn.warn{background:linear-gradient(135deg,#f97316,#fb923c);color:#fff}
+.btn:hover,a:hover{transform:translateY(-1px);background:#fff}
+.hero{
+  position:relative;overflow:hidden;border-radius:34px;padding:34px;
+  background:linear-gradient(135deg,rgba(255,255,255,.86),rgba(255,255,255,.5));
+  box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.78)
+}
+.hero:before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(circle at 12% 20%,rgba(31,122,74,.15),transparent 20%),
+    radial-gradient(circle at 82% 14%,rgba(37,99,235,.12),transparent 20%);
+}
+.hero-content{position:relative;display:grid;grid-template-columns:1.35fr .65fr;gap:24px;align-items:end}
+.eyebrow{display:inline-flex;gap:8px;align-items:center;padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.75);color:var(--green);font-weight:900}
+h1{margin:16px 0 10px;font-size:clamp(34px,5vw,68px);line-height:1.02;letter-spacing:-.05em}
+.subtitle{margin:0;color:var(--muted);line-height:1.75;font-size:18px;max-width:880px}
+.hero-card,.card,.section{
+  background:var(--card);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.78);
+  box-shadow:var(--shadow);border-radius:var(--radius)
+}
+.hero-card{padding:18px}
+.quick-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.quick-item{padding:12px;border-radius:18px;background:rgba(247,251,247,.86);border:1px solid rgba(31,122,74,.08)}
+.quick-item b{display:block;color:var(--muted);font-size:13px;margin-bottom:5px}.quick-item span{font-weight:900}
+.layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(360px,.8fr);gap:22px;margin-top:22px;align-items:start}
+.map-shell{position:sticky;top:82px;min-height:730px;border-radius:32px;overflow:hidden;box-shadow:var(--shadow);background:#eaf6ef;border:1px solid rgba(255,255,255,.78)}
+#map{height:730px;width:100%}
+.map-empty{position:absolute;inset:0;display:none;place-items:center;z-index:8;background:linear-gradient(135deg,rgba(255,255,255,.96),rgba(237,249,242,.88));padding:24px;text-align:center}
+.map-empty.show{display:grid}
+.map-empty-card{max-width:560px;background:#fff;border-radius:28px;padding:26px;border:1px solid var(--line);box-shadow:var(--shadow)}
+.map-empty h3{margin:0 0 10px;font-size:28px}
+.route-summary{
+  position:absolute;left:16px;top:16px;z-index:5;width:min(400px,calc(100% - 32px));
+  background:rgba(255,255,255,.84);backdrop-filter:blur(20px);border:1px solid var(--line);
+  border-radius:22px;padding:14px;box-shadow:0 10px 26px rgba(18,55,43,.12)
+}
+.route-summary h3{margin:0 0 10px}
+.segment{display:grid;grid-template-columns:10px 1fr auto;gap:9px;align-items:start;padding:9px 0;border-top:1px dashed rgba(31,122,74,.18);font-size:13px}
+.segment:first-of-type{border-top:0}.seg-dot{width:10px;height:10px;border-radius:50%;margin-top:4px}.seg-title{font-weight:900}.seg-meta{font-size:12px;color:var(--muted);margin-top:4px}.seg-stat{font-weight:900;color:var(--green);white-space:nowrap;text-align:right}
+.legend{
+  position:absolute;left:16px;bottom:16px;z-index:5;background:rgba(255,255,255,.84);backdrop-filter:blur(20px);
+  border:1px solid var(--line);border-radius:20px;padding:12px 14px;display:grid;gap:7px;font-size:12px;box-shadow:0 10px 26px rgba(18,55,43,.1)
+}
+.legend-row{display:flex;align-items:center;gap:8px}.legend-line{width:32px;height:5px;border-radius:999px}
+.panel-stack{display:grid;gap:18px}.card{padding:20px}.card-title,.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:14px}
+.card-title h2,.section h2{margin:0;font-size:23px;letter-spacing:-.02em}.section-head p{margin:6px 0 0;color:var(--muted);line-height:1.6}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:7px 10px;border-radius:999px;background:rgba(31,122,74,.09);color:var(--green);font-weight:900;font-size:12px}
+.timeline{display:grid;gap:12px}.day-card{border-radius:22px;padding:16px;background:rgba(255,255,255,.72);border:1px solid var(--line)}
+.day-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}.day-head strong{font-size:18px}
+.day-list{display:grid;gap:8px;list-style:none;margin:0;padding:0}
+.day-list li{display:grid;grid-template-columns:78px 1fr;gap:10px;padding:9px;border-radius:15px;background:rgba(247,251,247,.78);border:1px solid rgba(31,122,74,.07);line-height:1.55}
+.time{font-weight:900;color:var(--orange);font-size:13px}
+.section{margin-top:22px;padding:24px}.grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.poi-card{position:relative;overflow:hidden;min-height:190px;padding:17px;border-radius:24px;background:linear-gradient(135deg,rgba(255,255,255,.9),rgba(255,255,255,.6));border:1px solid var(--line);box-shadow:0 12px 28px rgba(18,55,43,.08)}
+.poi-card:before{content:attr(data-emoji);position:absolute;right:12px;top:4px;font-size:58px;opacity:.18}
+.poi-card h3{margin:0 0 8px;font-size:18px}.poi-meta{margin:0 0 12px;color:var(--muted);font-size:13px;line-height:1.65}
+.tag-row{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:12px;font-weight:800;padding:5px 8px;border-radius:999px;background:rgba(31,122,74,.08);color:var(--green)}
+.poi-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.small-btn{border:0;cursor:pointer;padding:8px 10px;border-radius:12px;background:#fff;color:var(--ink);border:1px solid var(--line);font-weight:800;font-size:12px}
+.edit-dock{position:fixed;right:18px;bottom:18px;z-index:60;display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;max-width:min(760px,calc(100vw - 36px));padding:10px;border-radius:24px;background:rgba(255,255,255,.72);backdrop-filter:blur(18px);border:1px solid var(--line);box-shadow:0 16px 40px rgba(18,55,43,.14)}
+.status{font-weight:900;font-size:13px;color:var(--green);padding:8px 10px;border-radius:999px;background:rgba(255,255,255,.68)}
+.modal{position:fixed;inset:0;z-index:100;display:none;place-items:center;padding:22px;background:rgba(8,27,20,.36);backdrop-filter:blur(10px)}
+.modal.show{display:grid}.modal-card{width:min(860px,100%);max-height:90vh;overflow:auto;border-radius:30px;background:#fbfffc;box-shadow:0 30px 80px rgba(0,0,0,.24);border:1px solid rgba(255,255,255,.8);padding:22px}
+.modal-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:16px}.modal-head h3{font-size:24px;margin:0}
+.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+label{display:grid;gap:6px;font-weight:900;font-size:13px;color:var(--muted)}input,textarea,select{width:100%;padding:11px 12px;border-radius:14px;border:1px solid rgba(31,122,74,.16);background:rgba(255,255,255,.88);color:var(--ink);font:inherit;outline:none}textarea{min-height:86px;resize:vertical}
+.notice{padding:12px 14px;border-radius:18px;background:rgba(255,244,205,.88);border:1px solid rgba(249,115,22,.18);color:#74501f;line-height:1.65;font-size:14px}
+.drawer-list{display:grid;gap:10px;max-height:420px;overflow:auto;padding-right:4px}.data-row{padding:12px;border-radius:18px;background:rgba(255,255,255,.72);border:1px solid var(--line)}.data-row summary{cursor:pointer;font-weight:900;display:flex;justify-content:space-between;gap:10px}.data-row-body{display:grid;gap:10px;margin-top:12px}
+[contenteditable=true]{outline:2px dashed rgba(31,122,74,.45);outline-offset:4px;border-radius:10px;background:rgba(255,255,255,.45)}
+.marker-pin{position:relative;width:42px;height:42px;border-radius:18px 18px 18px 4px;transform:rotate(-45deg);display:grid;place-items:center;box-shadow:0 8px 18px rgba(0,0,0,.22);border:3px solid #fff}.marker-pin span{transform:rotate(45deg);font-size:20px}
+.marker-label{position:absolute;transform:translate(-50%,8px);left:50%;top:38px;white-space:nowrap;padding:4px 8px;border-radius:999px;background:rgba(255,255,255,.94);border:1px solid var(--line);font-weight:900;font-size:12px;box-shadow:0 8px 18px rgba(18,55,43,.12)}
+.info-window{min-width:260px;max-width:350px;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif;color:#173b31}.info-window h3{margin:0 0 8px}.info-window p{margin:6px 0;line-height:1.55;color:#4f6b61}.hidden{display:none!important}
+@media(max-width:1100px){.layout{grid-template-columns:1fr}.map-shell{position:relative;top:auto}.grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-content{grid-template-columns:1fr}}
+@media(max-width:720px){.page{width:calc(100vw - 22px)}.topbar{position:relative}.topbar-inner{flex-direction:column;align-items:flex-start}.hero{padding:24px 18px}.quick-grid,.grid-2,.grid-3,.form-grid{grid-template-columns:1fr}#map{height:560px}.map-shell{min-height:560px}.route-summary,.legend{position:relative;left:auto;top:auto;bottom:auto;margin:12px;width:auto}.edit-dock{left:12px;right:12px;bottom:12px;justify-content:center}.day-list li{grid-template-columns:64px 1fr}}
+
+/* ===== Mobile-first enhancement added by ChatGPT ===== */
+@media(max-width:820px){
+  body{font-size:15px}
+  .page{width:100%;padding:10px 10px 96px}
+  .topbar{
+    position:sticky;
+    top:0;
+    margin:0 -10px 12px;
+    padding:8px 10px;
+    border-radius:0 0 22px 22px;
+  }
+  .topbar-inner{gap:8px}
+  .brand{font-size:14px}
+  .badge{width:32px;height:32px;border-radius:12px}
+  nav{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:7px;
+  }
+  nav a,nav .btn{
+    width:100%;
+    padding:9px 7px;
+    font-size:12px;
+    text-align:center;
+    white-space:nowrap;
+  }
+  .hero{
+    border-radius:26px;
+    padding:20px 14px;
+  }
+  .hero-content{grid-template-columns:1fr;gap:14px}
+  .eyebrow{font-size:12px;padding:7px 10px}
+  h1{
+    font-size:clamp(30px,10vw,44px);
+    line-height:1.08;
+    margin:12px 0 8px;
+  }
+  .subtitle{font-size:14px;line-height:1.65}
+  .hero-card{padding:12px;border-radius:22px}
+  .quick-grid{grid-template-columns:1fr 1fr;gap:8px}
+  .quick-item{padding:10px;border-radius:15px}
+  .quick-item b{font-size:12px}
+  .quick-item span{font-size:13px}
+  .layout{grid-template-columns:1fr;gap:14px;margin-top:14px}
+  .map-shell{
+    position:relative;
+    top:auto;
+    min-height:auto;
+    border-radius:26px;
+    overflow:hidden;
+  }
+  #map{
+    height:68vh;
+    min-height:460px;
+    max-height:680px;
+  }
+  .route-summary{
+    position:relative;
+    left:auto;
+    top:auto;
+    width:auto;
+    margin:10px;
+    max-height:260px;
+    overflow:auto;
+    border-radius:20px;
+  }
+  .route-summary h3{font-size:17px}
+  .segment{
+    grid-template-columns:9px 1fr;
+    gap:8px;
+  }
+  .seg-stat{
+    grid-column:2;
+    text-align:left;
+    font-size:12px;
+  }
+  .legend{
+    position:relative;
+    left:auto;
+    bottom:auto;
+    margin:0 10px 10px;
+    border-radius:18px;
+    grid-template-columns:1fr;
+  }
+  .card,.section{
+    border-radius:24px;
+    padding:16px;
+  }
+  .card-title,.section-head{
+    align-items:flex-start;
+    flex-direction:column;
+    gap:8px;
+  }
+  .card-title h2,.section h2{font-size:21px}
+  .timeline{gap:10px}
+  .day-card{
+    padding:13px;
+    border-radius:19px;
+  }
+  .day-head{
+    align-items:flex-start;
+    flex-direction:column;
+    gap:6px;
+  }
+  .day-head strong{font-size:17px}
+  .day-list li{
+    grid-template-columns:58px 1fr;
+    gap:8px;
+    padding:8px;
+  }
+  .time{font-size:12px}
+  .grid-3,.grid-2{grid-template-columns:1fr;gap:10px}
+  .poi-card{
+    min-height:auto;
+    padding:14px;
+    border-radius:20px;
+  }
+  .poi-card h3{font-size:17px}
+  .poi-meta{font-size:13px}
+  .edit-dock{
+    left:10px;
+    right:10px;
+    bottom:10px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:8px;
+    padding:9px;
+    border-radius:20px;
+  }
+  .edit-dock .status{
+    grid-column:1/-1;
+    text-align:center;
+    font-size:12px;
+  }
+  .edit-dock .btn{
+    width:100%;
+    padding:9px 8px;
+    font-size:12px;
+  }
+  .modal{padding:10px}
+  .modal-card{
+    border-radius:24px;
+    padding:16px;
+    max-height:92vh;
+  }
+  .modal-head h3{font-size:20px}
+  .form-grid{grid-template-columns:1fr}
+  input,textarea,select{font-size:16px}
+  .marker-label{
+    font-size:11px;
+    max-width:130px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+}
+@media(max-width:430px){
+  .quick-grid{grid-template-columns:1fr}
+  nav{grid-template-columns:repeat(2,1fr)}
+  #map{height:64vh;min-height:430px}
+  h1{font-size:32px}
+}
+
+
+@media(max-width:820px){
+  [contenteditable="true"]{
+    -webkit-user-select:text;
+    user-select:text;
+    caret-color:#1f7a4a;
+    min-height:1.4em;
+  }
+  .map-empty-card .btn,
+  .btn,
+  .small-btn{
+    touch-action:manipulation;
+  }
+}
+
+
+/* ===== itinerary transport enhancement ===== */
+.day-text{display:grid;gap:6px;min-width:0}
+.traffic-meta{
+  display:inline-flex;
+  align-items:center;
+  width:max-content;
+  max-width:100%;
+  padding:6px 9px;
+  border-radius:999px;
+  background:rgba(31,122,74,.09);
+  color:#1f7a4a;
+  font-size:12px;
+  font-weight:900;
+  line-height:1.35;
+  overflow-wrap:anywhere;
+}
+@media(max-width:820px){
+  .traffic-meta{
+    width:100%;
+    border-radius:14px;
+    padding:7px 9px;
+    white-space:normal;
+    font-size:12px;
+  }
+  .day-list li{
+    align-items:start;
+  }
+}
+
+
+/* ===== city food maps enhancement ===== */
+.food-map-section{margin-top:22px;padding:24px;border-radius:32px;background:var(--card);box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.8);backdrop-filter:blur(18px)}
+.food-map-tabs{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+.food-tab{border:0;cursor:pointer;padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.86);border:1px solid rgba(31,122,74,.12);font-weight:900;color:var(--ink)}
+.food-tab.active{background:linear-gradient(135deg,#1f7a4a,#38a863);color:#fff}
+.food-map-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(310px,.8fr);gap:16px;align-items:start}
+.food-map-card{position:relative;overflow:hidden;border-radius:26px;border:1px solid rgba(31,122,74,.12);box-shadow:0 12px 34px rgba(18,55,43,.1);background:#eef8f3}
+.food-map{width:100%;height:560px}
+.food-map-empty{position:absolute;inset:0;display:none;place-items:center;text-align:center;padding:22px;background:rgba(255,255,255,.92);z-index:5}
+.food-map-empty.show{display:grid}
+.food-side{display:grid;gap:12px}
+.district-card{border-radius:22px;padding:14px;background:rgba(255,255,255,.78);border:1px solid rgba(31,122,74,.12);box-shadow:0 8px 22px rgba(18,55,43,.07);cursor:pointer}
+.district-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+.district-head strong{font-size:17px}
+.district-desc{font-size:13px;color:var(--muted);line-height:1.6;margin:0 0 10px}
+.food-pill-list{display:flex;flex-wrap:wrap;gap:6px}
+.food-pill{padding:6px 9px;border-radius:999px;background:rgba(249,115,22,.1);color:#b45309;font-size:12px;font-weight:900}
+.food-map-marker{position:relative;transform:translate(-50%,-100%);filter:drop-shadow(0 8px 14px rgba(0,0,0,.18))}
+.food-map-marker .bubble{display:grid;place-items:center;width:42px;height:42px;border-radius:16px 16px 16px 4px;transform:rotate(-45deg);background:#f97316;border:3px solid #fff;color:#fff}
+.food-map-marker .bubble span{transform:rotate(45deg);font-size:20px}
+.food-map-marker .label{position:absolute;left:50%;top:42px;transform:translateX(-50%);white-space:nowrap;padding:4px 8px;border-radius:999px;background:rgba(255,255,255,.95);border:1px solid rgba(31,122,74,.12);font-size:12px;font-weight:900;color:#173b31}
+.district-chip{display:inline-flex;align-items:center;gap:4px;padding:5px 8px;border-radius:999px;background:rgba(31,122,74,.09);color:#1f7a4a;font-size:12px;font-weight:900}
+@media(max-width:820px){
+  .food-map-section{padding:16px;border-radius:24px}
+  .food-map-layout{grid-template-columns:1fr}
+  .food-map{height:58vh;min-height:420px;max-height:600px}
+  .food-map-tabs{display:grid;grid-template-columns:1fr 1fr}
+  .food-tab{width:100%}
+}
+
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="badge">🚗</span><span>3天2晚自驾攻略编辑器</span></div>
+    <nav>
+      <a href="#map-area">路线地图</a><a href="#itinerary">行程</a><a href="#attractions">景点</a><a href="#foods">美食</a><a href="#food-maps">美食地图</a><a href="#hotels">住宿</a>
+      <button class="btn primary" id="editToggle">开启编辑</button><button class="btn warn" id="settingsBtn">地图设置</button>
+    </nav>
+  </div>
+</div>
+
+<main class="page">
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div>
+        <div class="eyebrow">🧭 上海出发 · 宁波 · 临海 · 台州 · 自驾闭环</div>
+        <h1 data-bind="basic.title">上海出发｜宁波·临海·台州 3天2晚自驾攻略</h1>
+        <p class="subtitle" data-bind="basic.subtitle">9:30 从龙柏七村小区门口集合出发，第一晚住宁波海曙区中山东路81号，第二晚住台州椒江区广场中路1号；地图路线、点位、攻略内容均可实时编辑并自动保存。</p>
+      </div>
+      <div class="hero-card">
+        <div class="quick-grid">
+          <div class="quick-item"><b>出发点</b><span data-bind="basic.startPoint">龙柏七村小区门口集合</span></div>
+          <div class="quick-item"><b>出发时间</b><span data-bind="basic.startTime">Day 1 · 09:30</span></div>
+          <div class="quick-item"><b>宁波住宿</b><span data-bind="basic.ningboHotel">海曙区·中山东路81号</span></div>
+          <div class="quick-item"><b>台州住宿</b><span data-bind="basic.taizhouHotel">椒江区·广场中路1号</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="layout" id="map-area">
+    <section class="map-shell">
+      <div id="map"></div>
+      <div id="mapEmpty" class="map-empty show"><div class="map-empty-card">
+        <h3>地图正在加载</h3>
+        <p>本版本已内置高德 Key 和安全密钥。若长时间不显示地图，请用 Safari 打开，或检查高德控制台 Key 类型、域名白名单和 JS API 服务权限。</p>
+        <button class="btn primary" onclick="location.reload()">重新加载地图</button>
+      </div></div>
+      <div class="route-summary"><h3>🚘 实时自驾路线</h3><div id="routeSummary"></div></div>
+      <div class="legend">
+        <b>路线图例</b>
+        <div class="legend-row"><span class="legend-line" style="background:#2563eb"></span>Day 1 上海 → 宁波</div>
+        <div class="legend-row"><span class="legend-line" style="background:#16a34a"></span>Day 2 宁波 → 临海</div>
+        <div class="legend-row"><span class="legend-line" style="background:#f97316"></span>Day 2 临海 → 台州</div>
+        <div class="legend-row"><span class="legend-line" style="background:#7c3aed"></span>Day 3 台州 → 上海</div>
+        <div class="legend-row"><span>🏨</span>住宿 <span>📷</span>景点 <span>🍜</span>美食</div>
+      </div>
+    </section>
+
+    <aside class="panel-stack">
+      <section class="card" id="itinerary">
+        <div class="card-title"><h2>🗓️ 3天2晚行程</h2><span class="chip" id="saveStatus">已自动保存</span></div>
+        <div class="timeline" id="daysContainer"></div>
+      </section>
+      <section class="card">
+        <div class="card-title"><h2>🛣️ 路线数据</h2><span class="chip">高德实时计算</span></div>
+        <div id="routeCards" class="timeline"></div>
+      </section>
+      <section class="card">
+        <div class="card-title"><h2>🧩 地图数据编辑</h2><button class="small-btn" id="addPointBtn">新增点位</button></div>
+        <div class="notice">开启编辑模式后，地图标记可拖拽；拖拽后的经纬度会保存到浏览器。点位名称、地址、介绍、标签也可以修改。</div>
+        <div id="pointEditorList" class="drawer-list" style="margin-top:12px"></div>
+      </section>
+    </aside>
+  </div>
+
+  <section class="section" id="attractions"><div class="section-head"><div><h2>📷 景点介绍</h2><p>默认点位已放入宁波、临海、台州市中心的核心打卡点，点卡与地图标记联动。</p></div></div><div class="grid-3" id="attractionGrid"></div></section>
+  <section class="section" id="foods"><div class="section-head"><div><h2>🍜 美食攻略</h2><p>先以城市特色与代表性店铺/街区作为初版，后续可以把你确认的店名、排队情况、人均、图片替换进去。</p></div></div><div class="grid-3" id="foodGrid"></div></section>
+
+  <section class="food-map-section" id="food-maps">
+    <div class="section-head">
+      <div>
+        <h2>🗺️ 美食地图｜宁波 & 台州分区推荐</h2>
+        <p>按城市分区展示美食推荐。点击地图上的美食标记或右侧分区卡片，可查看推荐菜、适合时段和地图位置；所有文案仍可在编辑模式中修改。</p>
+      </div>
+      <span class="chip">高德地图 · 可交互</span>
+    </div>
+    <div class="food-map-tabs">
+      <button class="food-tab active" data-food-city="ningbo">宁波美食地图</button>
+      <button class="food-tab" data-food-city="taizhou">台州美食地图</button>
+    </div>
+    <div class="food-map-layout" id="ningboFoodPanel">
+      <div class="food-map-card">
+        <div id="ningboFoodMap" class="food-map"></div>
+        <div id="ningboFoodEmpty" class="food-map-empty"><div><h3>宁波美食地图等待加载</h3><p>地图成功加载后，这里会显示海曙、江北、鄞州、镇海、北仑等分区美食点。</p></div></div>
+      </div>
+      <div class="food-side" id="ningboDistrictList"></div>
+    </div>
+    <div class="food-map-layout hidden" id="taizhouFoodPanel">
+      <div class="food-map-card">
+        <div id="taizhouFoodMap" class="food-map"></div>
+        <div id="taizhouFoodEmpty" class="food-map-empty"><div><h3>台州美食地图等待加载</h3><p>地图成功加载后，这里会显示椒江、临海、黄岩、路桥、温岭等分区美食点。</p></div></div>
+      </div>
+      <div class="food-side" id="taizhouDistrictList"></div>
+    </div>
+  </section>
+
+
+  <section class="section" id="hotels"><div class="section-head"><div><h2>🏨 住宿信息</h2><p>两晚住宿地址已按你确认的信息放入地图，并作为自驾路线关键节点。</p></div></div><div class="grid-2" id="hotelGrid"></div></section>
+</main>
+
+<div class="edit-dock">
+  <span class="status" id="dockStatus">本地自动保存开启</span>
+  <button class="btn" id="exportBtn">导出备份</button><button class="btn" id="importBtn">导入备份</button><button class="btn" id="resetBtn">恢复默认</button>
+  <input id="importFile" type="file" accept="application/json" class="hidden" />
+</div>
+
+<div class="modal" id="settingsModal"><div class="modal-card">
+  <div class="modal-head"><h3>高德地图设置</h3><button class="small-btn" onclick="closeSettings()">关闭</button></div>
+  <div class="notice">已内置你提供的高德 Web端 JS API Key 和安全密钥 securityJsCode。若地图仍提示加载失败，请检查高德控制台 Key 类型是否为 Web端（JS API），以及域名白名单设置。保存后页面会刷新并加载地图。</div>
+  <div class="form-grid" style="margin-top:12px">
+    <label>高德 JS API Key<input id="amapKeyInput" placeholder="你的 Web端 JS API Key" /></label>
+    <label>安全密钥 securityJsCode<input id="amapSecurityInput" placeholder="你的 JS API 安全密钥" /></label>
+  </div>
+  <label style="margin-top:12px">封面图 URL 或 Base64<input id="coverInput" placeholder="可选：粘贴图片链接，或用下方按钮上传" /></label>
+  <label style="margin-top:12px">上传封面图到本地浏览器<input id="coverFile" type="file" accept="image/*" /></label>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px"><button class="btn primary" onclick="saveSettings()">保存并重载地图</button><button class="btn" onclick="closeSettings()">稍后再说</button></div>
+</div></div>
+
+<div class="modal" id="pointModal"><div class="modal-card">
+  <div class="modal-head"><h3 id="pointModalTitle">编辑点位</h3><button class="small-btn" onclick="closePointModal()">关闭</button></div>
+  <div class="form-grid">
+    <label>名称<input id="pmName" /></label><label>类型<select id="pmType"><option value="start">出发点</option><option value="hotel">住宿</option><option value="attraction">景点</option><option value="food">美食</option><option value="city">城市/节点</option></select></label>
+    <label>城市<input id="pmCity" /></label><label>地址/关键词<input id="pmAddress" /></label>
+    <label>建议停留<input id="pmDuration" /></label><label>图标 Emoji<input id="pmEmoji" /></label>
+    <label style="grid-column:1/-1">标签，用逗号分隔<input id="pmTags" /></label>
+    <label style="grid-column:1/-1">介绍<textarea id="pmDesc"></textarea></label>
+    <label>经度 lng<input id="pmLng" /></label><label>纬度 lat<input id="pmLat" /></label>
+  </div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px"><button class="btn primary" onclick="savePointFromModal()">保存点位</button><button class="btn" onclick="reGeocodeCurrentPoint()">重新按地址定位</button><button class="btn warn" onclick="deleteCurrentPoint()">删除点位</button></div>
+</div></div>
+
+<script>
+const STORAGE_KEY="sh_nb_lh_tz_trip_v6_no_key_screen";
+let editMode=false,map=null,AMapRef=null,geocoder=null,infoWindow=null,markerMap=new Map(),polylines=[],currentPointId=null,saveTimer=null;
+const defaultTripData={
+ settings:{amapKey:"2792b49d7f5e3fb41a3249b8f1feba91",amapSecurity:"1c2b8f5146ac82a923f8a3bff025b66a",coverImage:""},
+ basic:{title:"上海出发｜宁波·临海·台州 3天2晚自驾攻略",subtitle:"9:30 从龙柏七村小区门口集合出发，第一晚住宁波海曙区中山东路81号，第二晚住台州椒江区广场中路1号；地图路线、点位、攻略内容均可实时编辑并自动保存。",startPoint:"龙柏七村小区门口集合",startTime:"Day 1 · 09:30",ningboHotel:"海曙区·中山东路81号",taizhouHotel:"椒江区·广场中路1号"},
+ routes:[
+  {id:"r1",day:"Day 1",name:"上海 → 宁波",from:"sh-start",to:"nb-hotel",depart:"09:30",color:"#2563eb",distanceText:"等待高德计算",timeText:"等待高德计算",desc:"🚗 自驾：从龙柏七村小区门口集合，前往宁波海曙区中山东路81号；距离和时长由高德实时计算。"},
+  {id:"r2",day:"Day 2",name:"宁波 → 台州临海",from:"nb-hotel",to:"lh-ancient-city",depart:"上午",color:"#16a34a",distanceText:"等待高德计算",timeText:"等待高德计算",desc:"🚗 自驾：上午从宁波住宿点出发，前往台州临海古城区域；距离和时长由高德实时计算。"},
+  {id:"r3",day:"Day 2",name:"临海 → 台州市中心",from:"lh-ancient-city",to:"tz-hotel",depart:"17:00到达",color:"#f97316",distanceText:"等待高德计算",timeText:"等待高德计算",desc:"🚗 自驾：临海游玩后前往椒江区广场中路1号，计划17:00到达台州市中心；距离和时长由高德实时计算。"},
+  {id:"r4",day:"Day 3",name:"台州市中心 → 上海",from:"tz-hotel",to:"sh-start",depart:"第三天",color:"#7c3aed",distanceText:"等待高德计算",timeText:"等待高德计算",desc:"🚗 自驾：第三天离开台州返回上海；距离和时长由高德实时计算。"}
+ ],
+ days:[
+  {title:"Day 1｜上海 → 宁波",theme:"自驾抵达 · 宁波 citywalk · 夜游外滩",items:[
+    {time:"09:30",transport:"🚗 自驾｜上海龙柏七村 → 宁波海曙区中山东路81号｜约2.5-3.5小时",text:"龙柏七村小区门口集合，检查证件、充电/加油、导航与高速路况后出发前往宁波。"},
+    {time:"12:30-13:30",transport:"🚗 抵达后短途停车/步行｜约5-15分钟",text:"抵达宁波住宿点，办理入住或寄存行李；午餐建议安排宁波汤圆、海鲜、年糕类。"},
+    {time:"14:00-17:00",transport:"🚶 citywalk + 短途打车｜单段约5-15分钟",text:"天一阁、月湖、鼓楼一线 citywalk，适合拍照、散步、喝咖啡。"},
+    {time:"17:30-18:30",transport:"🚗/打车｜鼓楼/月湖 → 老外滩｜约15-25分钟",text:"前往老外滩看江边建筑与夜景，傍晚光线适合拍照。"},
+    {time:"19:00-21:00",transport:"🚗/打车/步行｜老外滩 → 南塘老街/天一广场｜约10-25分钟",text:"南塘老街或天一广场周边觅食，晚上返回宁波住宿点。"}
+  ]},
+  {title:"Day 2｜宁波 → 台州临海 → 台州市中心",theme:"古城摄影 · 紫阳街美食 · 17:00 到台州市中心",items:[
+    {time:"08:30-11:00",transport:"🚗 自驾｜宁波住宿点 → 台州临海古城｜约2-2.5小时",text:"从宁波住宿点出发，自驾前往台州临海，建议直接导航到台州府城墙/兴善门或紫阳街附近停车场。"},
+    {time:"11:00-13:00",transport:"🚶 步行觅食｜紫阳街周边｜约5-15分钟/段",text:"临海午餐，优先安排麦虾、麦饼、蛋清羊尾、海苔饼等当地小吃。"},
+    {time:"13:00-15:50",transport:"🚶 古城步行｜府城墙、紫阳街、东湖、龙兴寺｜约5-20分钟/段",text:"台州府城墙、紫阳街、东湖、龙兴寺一线游玩拍照，注意预留取车时间。"},
+    {time:"15:50-17:00",transport:"🚗 自驾｜临海 → 台州市中心椒江区广场中路1号｜约50-70分钟",text:"自驾前往台州市中心，计划17:00左右抵达椒江区广场中路1号住宿点。"},
+    {time:"18:00-21:00",transport:"🚗/打车/步行｜市中心晚餐与夜游｜单段约10-25分钟",text:"台州市中心晚餐，可考虑姜汤面、海鲜排档、炊圆或葭沚老街夜游。"}
+  ]},
+  {title:"Day 3｜台州市中心 → 上海",theme:"轻松补点 · 美食收尾 · 自驾返沪",items:[
+    {time:"09:30-11:30",transport:"🚗/步行｜台州市中心补点｜单段约10-25分钟",text:"台州市中心轻松补点：椒江老街、葭沚老街、台州博物馆或和合公园。"},
+    {time:"11:30-13:00",transport:"🚗/步行｜午餐收尾｜约10-20分钟",text:"台州午餐收尾，适合安排姜汤面、食饼筒、海鲜或本地小吃。"},
+    {time:"13:30-19:00",transport:"🚗 自驾｜台州市中心 → 上海龙柏七村｜约4.5-5.5小时",text:"离开台州，自驾返回上海；建议中途安排1次服务区休息，避开晚高峰。"},
+    {time:"晚上",transport:"🚗 抵达上海｜具体时间以高德实时路况为准",text:"抵达上海，结束3天2晚自驾旅行。"}
+  ]},
+ points:[
+  {id:"sh-start",type:"start",name:"龙柏七村小区门口集合",city:"上海市",address:"上海市闵行区龙柏七村",duration:"集合出发",emoji:"🚗",desc:"本次自驾出发集合点。建议提前确认车辆、充电/加油、随车物品与高速路况。",tags:["集合点","自驾起点"]},
+  {id:"nb-hotel",type:"hotel",name:"宁波住宿点｜中山东路81号",city:"宁波市",address:"浙江省宁波市海曙区中山东路81号",duration:"第1晚",emoji:"🏨",desc:"第一晚住宿点，位于宁波海曙区，适合衔接天一阁、鼓楼、月湖、老外滩等市区景点。",tags:["第1晚","海曙区","住宿"]},
+  {id:"tz-hotel",type:"hotel",name:"台州住宿点｜广场中路1号",city:"台州市",address:"浙江省台州市椒江区广场中路1号",duration:"第2晚",emoji:"🏨",desc:"第二晚住宿点，位于台州市中心椒江区，适合衔接市府大道、椒江老街、葭沚老街、台州博物馆等。",tags:["第2晚","椒江区","住宿"]},
+  {id:"nb-tianyige",type:"attraction",name:"天一阁博物院",city:"宁波市",address:"浙江省宁波市海曙区天一街10号",duration:"1.5-2小时",emoji:"📚",desc:"宁波代表性文化地标，适合安排在第一天下午，和月湖、鼓楼一线串联。",tags:["文化","摄影","宁波"]},
+  {id:"nb-yuehu",type:"attraction",name:"月湖公园",city:"宁波市",address:"浙江省宁波市海曙区月湖",duration:"40-60分钟",emoji:"🌿",desc:"宁波市区轻松散步点，适合从天一阁步行延伸，天气好时拍照很舒服。",tags:["citywalk","湖景","宁波"]},
+  {id:"nb-gulou",type:"attraction",name:"宁波鼓楼",city:"宁波市",address:"浙江省宁波市海曙区鼓楼",duration:"40-60分钟",emoji:"🏯",desc:"宁波老城核心之一，适合吃小吃、逛街、拍街景。",tags:["老城","小吃","宁波"]},
+  {id:"nb-laowaitan",type:"attraction",name:"宁波老外滩",city:"宁波市",address:"浙江省宁波市江北区老外滩",duration:"1-1.5小时",emoji:"🌃",desc:"适合傍晚到夜间游玩，江边建筑和夜景比较出片。",tags:["夜景","摄影","宁波"]},
+  {id:"nb-nantang",type:"attraction",name:"南塘老街",city:"宁波市",address:"浙江省宁波市海曙区南塘老街",duration:"1-1.5小时",emoji:"🏮",desc:"宁波夜间觅食和散步选择，可作为 Day 1 晚餐备选区域。",tags:["美食街","夜游","宁波"]},
+  {id:"lh-ancient-city",type:"attraction",name:"台州府城墙｜兴善门",city:"临海市",address:"浙江省台州市临海市台州府城文化旅游区兴善门",duration:"2-3小时",emoji:"🏰",desc:"临海核心打卡点，适合城墙登高、古城摄影，与紫阳街、东湖相邻串联。",tags:["临海","古城","摄影"]},
+  {id:"lh-ziyang",type:"attraction",name:"紫阳街",city:"临海市",address:"浙江省台州市临海市紫阳街",duration:"1.5-2小时",emoji:"🍡",desc:"临海小吃和古街拍照重点区域，适合安排午餐和下午 citywalk。",tags:["古街","美食","临海"]},
+  {id:"lh-donghu",type:"attraction",name:"临海东湖",city:"临海市",address:"浙江省台州市临海市东湖",duration:"1小时",emoji:"🛶",desc:"临海古城旁的湖景点，可以与台州府城墙、紫阳街一起走。",tags:["湖景","摄影","临海"]},
+  {id:"lh-longxing",type:"attraction",name:"龙兴寺",city:"临海市",address:"浙江省台州市临海市龙兴寺",duration:"40-60分钟",emoji:"🛕",desc:"临海古城内可顺路补充的安静点位，适合看古建和拍照。",tags:["古建","临海"]},
+  {id:"tz-jiaojiang-old",type:"attraction",name:"椒江老街",city:"台州市",address:"浙江省台州市椒江区椒江老街",duration:"1小时",emoji:"🏘️",desc:"台州市中心晚间或第三天上午可选点，适合散步和小吃。",tags:["台州市中心","老街"]},
+  {id:"tz-jiazhi",type:"attraction",name:"葭沚老街",city:"台州市",address:"浙江省台州市椒江区葭沚老街",duration:"1-1.5小时",emoji:"🏮",desc:"台州市区休闲街区，可安排晚餐后散步或第三天上午补点。",tags:["夜游","台州市中心"]},
+  {id:"tz-museum",type:"attraction",name:"台州博物馆",city:"台州市",address:"浙江省台州市椒江区台州博物馆",duration:"1-1.5小时",emoji:"🏛️",desc:"适合第三天上午慢节奏了解台州历史文化，雨天也可安排。",tags:["室内","文化","台州"]},
+  {id:"food-ningbo-tangyuan",type:"food",name:"宁波汤圆/缸鸭狗参考",city:"宁波市",address:"浙江省宁波市海曙区鼓楼",duration:"早餐/甜点",emoji:"🥣",desc:"宁波代表性甜食，建议在鼓楼、天一广场一带按实际营业情况选择。",tags:["宁波汤圆","甜品","可替换店铺"]},
+  {id:"food-ningbo-seafood",type:"food",name:"宁波海鲜/年糕",city:"宁波市",address:"浙江省宁波市海曙区天一广场",duration:"午餐/晚餐",emoji:"🦀",desc:"宁波海鲜、年糕、红膏呛蟹等适合做第一天晚餐备选，具体店铺可现场再确认。",tags:["海鲜","年糕","宁波"]},
+  {id:"food-linhai-snack",type:"food",name:"临海麦虾/蛋清羊尾",city:"临海市",address:"浙江省台州市临海市紫阳街",duration:"午餐/下午茶",emoji:"🍜",desc:"临海小吃重点放在紫阳街周边，麦虾、蛋清羊尾、海苔饼、麦饼都可加入清单。",tags:["临海小吃","紫阳街","必吃"]},
+  {id:"food-taizhou-jiangtang",type:"food",name:"台州姜汤面/炊圆",city:"台州市",address:"浙江省台州市椒江区市府大道",duration:"晚餐/早餐",emoji:"🍲",desc:"台州代表性本地味道，适合第二晚或第三天早餐安排。",tags:["姜汤面","炊圆","台州"]},
+  {id:"food-taizhou-seafood",type:"food",name:"台州海鲜排档",city:"台州市",address:"浙江省台州市椒江区葭沚老街",duration:"晚餐",emoji:"🦐",desc:"第二晚可在椒江或葭沚老街周边找海鲜排档，建议出行前复核营业和排队情况。",tags:["海鲜","椒江","晚餐"]}
+ ]
+};
+
+const cityFoodMaps = {
+  ningbo: {
+    name: "宁波",
+    center: [121.55, 29.87],
+    zoom: 10,
+    districts: [
+      {id:"nb-haishu", name:"海曙区", center:[121.546,29.874], desc:"本次宁波住宿所在区，适合安排天一阁、鼓楼、月湖、南塘老街一线 citywalk 美食。", foods:["宁波汤圆","油赞子","年糕炒海鲜","苔菜小方烤","南塘老街小吃"], markers:[{name:"鼓楼/天一阁周边", lnglat:[121.545,29.873], emoji:"🥣", food:"宁波汤圆、油赞子、年糕", tip:"适合 Day1 午餐/下午茶，步行串联天一阁、月湖、鼓楼。"},{name:"南塘老街", lnglat:[121.542,29.849], emoji:"🏮", food:"油赞子、糕点、小吃、夜宵", tip:"适合 Day1 晚餐或夜游后补充小吃。"}]},
+      {id:"nb-jiangbei", name:"江北区", center:[121.555,29.89], desc:"老外滩所在区域，适合傍晚夜景后安排江边餐厅、宁波菜或海鲜。", foods:["老外滩夜景餐厅","宁波菜","海鲜","酒吧街轻食"], markers:[{name:"宁波老外滩", lnglat:[121.559,29.887], emoji:"🌃", food:"宁波菜、海鲜、夜景餐厅", tip:"适合傍晚后游玩，晚餐+夜景一起安排。"}]},
+      {id:"nb-yinzhou", name:"鄞州区", center:[121.58,29.82], desc:"商业餐饮集中，适合作为备选晚餐区，餐厅选择多。", foods:["宁波菜餐厅","海鲜餐厅","商圈餐饮","咖啡甜品"], markers:[{name:"鄞州商圈", lnglat:[121.56,29.82], emoji:"🍽️", food:"宁波菜、海鲜、商圈餐饮", tip:"适合不想排队时作为备选。"}]},
+      {id:"nb-zhenhai", name:"镇海区", center:[121.72,29.95], desc:"偏北部，适合顺路或深度游补充，不作为本次主线核心。", foods:["海鲜","码头风味","本地小馆"], markers:[{name:"镇海美食备选", lnglat:[121.716,29.948], emoji:"🦀", food:"海鲜、本地小馆", tip:"距离主线略远，建议作为备选。"}]},
+      {id:"nb-beilun", name:"北仑区", center:[121.84,29.90], desc:"靠海港区域，海鲜资源丰富，但距离海曙主线较远。", foods:["海鲜","港区风味","小海鲜"], markers:[{name:"北仑海鲜备选", lnglat:[121.844,29.901], emoji:"🦐", food:"海鲜、小海鲜", tip:"适合有额外时间时安排。"}]}
+    ]
+  },
+  taizhou: {
+    name: "台州",
+    center: [121.25, 28.66],
+    zoom: 9,
+    districts: [
+      {id:"tz-linhai", name:"临海市", center:[121.13,28.85], desc:"Day2 核心游玩区，紫阳街、台州府城墙、东湖集中，最适合安排临海小吃。", foods:["临海麦虾","蛋清羊尾","海苔饼","麦饼","糟羹"], markers:[{name:"紫阳街", lnglat:[121.126,28.852], emoji:"🍜", food:"麦虾、蛋清羊尾、海苔饼、麦饼", tip:"Day2 午餐首选区域，边逛边吃最顺路。"},{name:"台州府城墙/兴善门", lnglat:[121.123,28.850], emoji:"🏰", food:"古城周边小吃", tip:"拍照游玩后可步行回紫阳街觅食。"}]},
+      {id:"tz-jiaojiang", name:"椒江区", center:[121.44,28.67], desc:"本次台州住宿所在区，适合第二晚和第三天早餐/午餐。", foods:["姜汤面","姜汁调蛋","食饼筒","海鲜排档","炊圆"], markers:[{name:"椒江区广场中路住宿点", lnglat:[121.427,28.662], emoji:"🏨", food:"姜汤面、海鲜排档、炊圆", tip:"第二晚住宿点周边，适合晚餐与第二天早餐。"},{name:"葭沚老街", lnglat:[121.404,28.666], emoji:"🏮", food:"台州菜、夜游小吃、咖啡甜品", tip:"适合晚饭后散步和夜游。"}]},
+      {id:"tz-huangyan", name:"黄岩区", center:[121.26,28.65], desc:"台州市区西侧，蜜橘与本地小吃有特色，可作为返程前补充。", foods:["黄岩蜜橘","麦饼","姜汤面","本地小炒"], markers:[{name:"黄岩城区", lnglat:[121.262,28.648], emoji:"🍊", food:"黄岩蜜橘、麦饼、本地小炒", tip:"适合顺路补点，不是本次主线必去。"}]},
+      {id:"tz-luqiao", name:"路桥区", center:[121.37,28.58], desc:"商贸餐饮丰富，适合台州市区备选餐饮。", foods:["食饼筒","姜汤面","小海鲜","夜宵"], markers:[{name:"路桥城区", lnglat:[121.372,28.581], emoji:"🍲", food:"食饼筒、姜汤面、小海鲜", tip:"适合作为台州市中心周边备选。"}]},
+      {id:"tz-wenling", name:"温岭市", center:[121.38,28.37], desc:"海鲜和海边风味突出，但距离本次主线较远。", foods:["温岭海鲜","嵌糕","小海鲜","鱼面"], markers:[{name:"温岭海鲜备选", lnglat:[121.385,28.372], emoji:"🦞", food:"海鲜、嵌糕、小海鲜", tip:"适合台州深度游时加一天。"}]}
+    ]
+  }
+};
+let foodMapState = { ningbo:null, taizhou:null, markers:{ningbo:[], taizhou:[]}, info:null };
+
+function clone(o){return JSON.parse(JSON.stringify(o))}
+function merge(a,b){if(Array.isArray(a))return Array.isArray(b)?b:a;if(a&&typeof a==="object"){let o={...a};Object.keys(b||{}).forEach(k=>{o[k]=(k in o&&typeof o[k]==="object"&&!Array.isArray(o[k]))?merge(o[k],b[k]):b[k]});return o}return b??a}
+function load(){try{const r=localStorage.getItem(STORAGE_KEY);if(r)return merge(clone(defaultTripData),JSON.parse(r))}catch(e){}return clone(defaultTripData)}
+let tripData=load();
+
+// ===== 强制内置高德 Key + 安全密钥：此版本不再要求手动填写 =====
+if(!tripData.settings) tripData.settings = {};
+tripData.settings.amapKey = "2792b49d7f5e3fb41a3249b8f1feba91";
+tripData.settings.amapSecurity = "1c2b8f5146ac82a923f8a3bff025b66a";
+
+// 清理旧版本缓存，避免手机浏览器继续读取旧版空 Key
+[
+  "sh_nb_lh_tz_trip_v2",
+  "sh_nb_lh_tz_trip_v3_amap_ready",
+  "sh_nb_lh_tz_trip_v4_transport_ready",
+  "sh_nb_lh_tz_trip_v5_foodmaps_ready"
+].forEach(k => {
+  if(k !== STORAGE_KEY) localStorage.removeItem(k);
+});
+localStorage.setItem(STORAGE_KEY, JSON.stringify(tripData));
+
+
+function save(im=false){clearTimeout(saveTimer);const run=()=>{localStorage.setItem(STORAGE_KEY,JSON.stringify(tripData));status("已自动保存")};im?run():saveTimer=setTimeout(run,260)}
+function status(t){["saveStatus","dockStatus"].forEach(id=>{let e=document.getElementById(id);if(e)e.textContent=t})}
+function esc(s=""){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
+function get(o,p){return p.split(".").reduce((x,k)=>x?x[k]:undefined,o)}function set(o,p,v){let ks=p.split("."),l=ks.pop(),t=ks.reduce((x,k)=>x[k],o);t[l]=v}
+function editAttr(p){return editMode?`contenteditable="true" data-edit-path="${p}"`:""}
+function renderAll(){applyHero();renderBound();renderDays();renderRoutes();renderCards();renderPointEditor();renderSummary()}
+function applyHero(){if(tripData.settings.coverImage)document.getElementById("hero").style.backgroundImage=`linear-gradient(135deg,rgba(255,255,255,.86),rgba(255,255,255,.5)),url("${tripData.settings.coverImage}")`}
+function renderBound(){document.querySelectorAll("[data-bind]").forEach(e=>{let v=get(tripData,e.dataset.bind);if(document.activeElement!==e)e.textContent=v??"";e.contentEditable=editMode?"true":"false"})}
+function renderDays(){
+  daysContainer.innerHTML=tripData.days.map((d,i)=>`<article class="day-card"><div class="day-head"><strong ${editAttr(`days.${i}.title`)}>${esc(d.title)}</strong><span class="chip" ${editAttr(`days.${i}.theme`)}>${esc(d.theme)}</span></div><ul class="day-list">${d.items.map((it,j)=>`<li><span class="time" ${editAttr(`days.${i}.items.${j}.time`)}>${esc(it.time)}</span><span class="day-text"><span ${editAttr(`days.${i}.items.${j}.text`)}>${esc(it.text)}</span>${it.transport?`<span class="traffic-meta" ${editAttr(`days.${i}.items.${j}.transport`)}>${esc(it.transport)}</span>`:""}</span></li>`).join("")}</ul></article>`).join("")
+}
+function renderRoutes(){routeCards.innerHTML=tripData.routes.map((r,i)=>`<article class="day-card"><div class="day-head"><strong><span style="color:${r.color}">●</span> ${esc(r.name)}</strong><span class="chip">${esc(r.day)} · ${esc(r.depart)}</span></div><p class="poi-meta" ${editAttr(`routes.${i}.desc`)}>${esc(r.desc)}</p><div class="quick-grid"><div class="quick-item"><b>距离</b><span>${esc(r.distanceText)}</span></div><div class="quick-item"><b>时长</b><span>${esc(r.timeText)}</span></div></div></article>`).join("")}
+function renderSummary(){routeSummary.innerHTML=tripData.routes.map(r=>`<div class="segment"><span class="seg-dot" style="background:${r.color}"></span><div><div class="seg-title">${esc(r.name)}</div><div class="seg-meta">${esc(r.day)} · ${esc(r.depart)} · ${esc(r.desc)}</div></div><div class="seg-stat">${esc(r.distanceText)}<br>${esc(r.timeText)}</div></div>`).join("")}
+function typeName(t){return {start:"出发点",hotel:"住宿",attraction:"景点",food:"美食",city:"城市"}[t]||t}
+function color(t){return {start:"#ef4444",hotel:"#f97316",attraction:"#16a34a",food:"#d97706",city:"#2563eb"}[t]||"#1f7a4a"}
+function cards(type){return tripData.points.filter(p=>p.type===type).map(cardHTML).join("")}
+function cardHTML(p){return `<article class="poi-card" data-emoji="${esc(p.emoji||"📍")}"><h3>${esc(p.emoji||"📍")} ${esc(p.name)}</h3><p class="poi-meta">${esc(p.desc||"")}</p><p class="poi-meta"><b>地址：</b>${esc(p.address||"")}<br><b>建议：</b>${esc(p.duration||"")}</p><div class="tag-row">${(p.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div><div class="poi-actions"><button class="small-btn" onclick="focusPoint('${p.id}')">地图定位</button><button class="small-btn" onclick="openPointEditor('${p.id}')">编辑</button></div></article>`}
+function renderCards(){attractionGrid.innerHTML=cards("attraction");foodGrid.innerHTML=cards("food");hotelGrid.innerHTML=cards("hotel")}
+function renderPointEditor(){pointEditorList.innerHTML=tripData.points.map(p=>`<details class="data-row"><summary><span>${esc(p.emoji||"📍")} ${esc(p.name)}</span><span class="chip">${esc(typeName(p.type))}</span></summary><div class="data-row-body"><label>名称<input data-point-field="name" data-point-id="${p.id}" value="${esc(p.name)}"></label><label>地址<input data-point-field="address" data-point-id="${p.id}" value="${esc(p.address)}"></label><label>介绍<textarea data-point-field="desc" data-point-id="${p.id}">${esc(p.desc||"")}</textarea></label><div style="display:flex;gap:8px;flex-wrap:wrap"><button class="small-btn" onclick="focusPoint('${p.id}')">地图定位</button><button class="small-btn" onclick="openPointEditor('${p.id}')">高级编辑</button><button class="small-btn" onclick="reGeocodePoint('${p.id}')">按地址重定位</button></div></div></details>`).join("")}
+document.addEventListener("input",e=>{let p=e.target.dataset.editPath||e.target.dataset.bind;if(p&&e.target.isContentEditable){set(tripData,p,e.target.textContent.trim());save()}})
+document.addEventListener("change",e=>{let id=e.target.dataset.pointId,f=e.target.dataset.pointField;if(id&&f){let p=tripData.points.find(x=>x.id===id);if(p){p[f]=e.target.value;save();renderCards();renderMarkers()}}})
+editToggle.onclick=()=>{
+  editMode=!editMode;
+  editToggle.textContent=editMode?"关闭编辑":"开启编辑";
+  renderAll();
+  renderMarkers();
+  if(editMode){
+    status("编辑模式已开启：点击页面文字即可修改");
+    setTimeout(()=>alert("编辑模式已开启：请直接点击标题、行程、景点、美食等文字进行修改；地图点位可在「地图数据编辑」里修改。"),80);
+  }else{
+    status("已退出编辑模式");
+  }
+}
+settingsBtn.onclick=openSettings;addPointBtn.onclick=()=>openPointEditor(null);exportBtn.onclick=exportData;importBtn.onclick=()=>importFile.click();importFile.onchange=importData;resetBtn.onclick=resetData;
+coverFile.onchange=e=>{let f=e.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>coverInput.value=r.result;r.readAsDataURL(f)}
+function openSettings(){amapKeyInput.value=tripData.settings.amapKey||"";amapSecurityInput.value=tripData.settings.amapSecurity||"";coverInput.value=tripData.settings.coverImage||"";settingsModal.classList.add("show")}
+function closeSettings(){settingsModal.classList.remove("show")}
+function saveSettings(){tripData.settings.amapKey=amapKeyInput.value.trim();tripData.settings.amapSecurity=amapSecurityInput.value.trim();tripData.settings.coverImage=coverInput.value.trim();save(true);location.reload()}
+function openPointEditor(id){currentPointId=id;if(!id){let p={id:"p-"+Date.now(),type:"attraction",name:"新点位",city:"",address:"",duration:"",emoji:"📍",desc:"",tags:[]};tripData.points.push(p);currentPointId=p.id}let p=tripData.points.find(x=>x.id===currentPointId);pointModalTitle.textContent=id?"编辑点位":"新增点位";pmName.value=p.name||"";pmType.value=p.type||"attraction";pmCity.value=p.city||"";pmAddress.value=p.address||"";pmDuration.value=p.duration||"";pmEmoji.value=p.emoji||"📍";pmTags.value=(p.tags||[]).join("，");pmDesc.value=p.desc||"";pmLng.value=p.lnglat?p.lnglat[0]:"";pmLat.value=p.lnglat?p.lnglat[1]:"";pointModal.classList.add("show");save();renderPointEditor()}
+function closePointModal(){pointModal.classList.remove("show")}
+function savePointFromModal(){let p=tripData.points.find(x=>x.id===currentPointId);if(!p)return;p.name=pmName.value.trim();p.type=pmType.value;p.city=pmCity.value.trim();p.address=pmAddress.value.trim();p.duration=pmDuration.value.trim();p.emoji=pmEmoji.value.trim()||"📍";p.desc=pmDesc.value.trim();p.tags=pmTags.value.split(/[,，]/).map(s=>s.trim()).filter(Boolean);let lng=parseFloat(pmLng.value),lat=parseFloat(pmLat.value);if(!isNaN(lng)&&!isNaN(lat))p.lnglat=[lng,lat];save(true);renderAll();renderMarkers();closePointModal()}
+function deleteCurrentPoint(){if(tripData.routes.some(r=>r.from===currentPointId||r.to===currentPointId)){alert("这个点位正在被路线使用，不能删除。");return}if(confirm("确定删除这个点位吗？")){tripData.points=tripData.points.filter(p=>p.id!==currentPointId);save(true);renderAll();renderMarkers();closePointModal()}}
+function reGeocodeCurrentPoint(){reGeocodePoint(currentPointId)}
+function reGeocodePoint(id){let p=tripData.points.find(x=>x.id===id);if(!p)return;delete p.lnglat;save(true);geocodeAll().then(()=>{renderMarkers();calculateRoutes()})}
+function exportData(){let b=new Blob([JSON.stringify(tripData,null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="上海宁波临海台州3天2晚攻略备份.json";a.click();URL.revokeObjectURL(a.href)}
+function importData(e){let f=e.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{tripData=merge(clone(defaultTripData),JSON.parse(r.result));save(true);alert("导入成功，页面即将刷新。");location.reload()}catch(err){alert("导入失败：JSON格式不正确。")}};r.readAsText(f)}
+function resetData(){if(confirm("确定恢复默认内容吗？建议先导出备份。")){localStorage.removeItem(STORAGE_KEY);location.reload()}}
+function geocodeOne(p){return new Promise(res=>{if(p.lnglat&&p.lnglat.length===2)return res(p);if(!geocoder||!p.address)return res(p);geocoder.getLocation(p.address,(s,r)=>{if(s==="complete"&&r.geocodes&&r.geocodes.length){let l=r.geocodes[0].location;p.lnglat=[l.lng,l.lat];p.geocodeStatus="ok"}else p.geocodeStatus="failed";res(p)})})}
+async function geocodeAll(){if(!geocoder)return;for(const p of tripData.points)await geocodeOne(p);save(true)}
+function markerContent(p){return `<div style="position:relative"><div class="marker-pin" style="background:${color(p.type)}"><span>${esc(p.emoji||"📍")}</span></div><div class="marker-label">${esc(p.name)}</div></div>`}
+function renderMarkers(){if(!map||!AMapRef)return;markerMap.forEach(m=>map.remove(m));markerMap.clear();tripData.points.forEach(p=>{if(!p.lnglat)return;let m=new AMapRef.Marker({position:p.lnglat,content:markerContent(p),offset:new AMapRef.Pixel(-21,-42),draggable:editMode,cursor:editMode?"move":"pointer",zIndex:p.type==="hotel"||p.type==="start"?120:100});m.on("click",()=>openInfo(p));m.on("dragend",e=>{p.lnglat=[e.lnglat.lng,e.lnglat.lat];save(true);calculateRoutes()});map.add(m);markerMap.set(p.id,m)})}
+function openInfo(p){if(!infoWindow||!map)return;infoWindow.setContent(`<div class="info-window"><h3>${esc(p.emoji||"📍")} ${esc(p.name)}</h3><p><b>${esc(typeName(p.type))}</b> · ${esc(p.city||"")}</p><p>${esc(p.desc||"")}</p><p><b>地址：</b>${esc(p.address||"")}</p><p><b>建议：</b>${esc(p.duration||"")}</p><div>${(p.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div><p><button class="small-btn" onclick="openPointEditor('${p.id}')">编辑这个点位</button></p></div>`);infoWindow.open(map,p.lnglat)}
+function focusPoint(id){let p=tripData.points.find(x=>x.id===id);if(!p||!map||!p.lnglat)return;map.setZoomAndCenter(14,p.lnglat);openInfo(p)}
+function clearRoutes(){if(!map)return;polylines.forEach(pl=>map.remove(pl));polylines=[]}
+async function calculateRoutes(){if(!map||!AMapRef)return;clearRoutes();let fit=[];markerMap.forEach(m=>fit.push(m));for(const r of tripData.routes){let a=tripData.points.find(p=>p.id===r.from),b=tripData.points.find(p=>p.id===r.to);if(!a?.lnglat||!b?.lnglat)continue;try{let result=await drivingSearch(a.lnglat,b.lnglat),best=result.routes&&result.routes[0];if(best){let meters=Number(best.distance||0),secs=Number(best.time||0);r.distanceText=meters?(meters/1000).toFixed(1)+" km":"已规划";r.timeText=secs?formatTime(secs):"已规划";let path=[];(best.steps||[]).forEach(st=>(st.path||[]).forEach(ll=>path.push(Array.isArray(ll)?ll:[ll.lng,ll.lat])));let pl=new AMapRef.Polyline({path:path.length?path:[a.lnglat,b.lnglat],strokeColor:r.color,strokeWeight:8,strokeOpacity:.86,lineJoin:"round",lineCap:"round",showDir:true,isOutline:true,outlineColor:"rgba(255,255,255,.92)",zIndex:88});map.add(pl);polylines.push(pl);fit.push(pl)}}catch(err){r.distanceText="规划失败";r.timeText="请检查点位";let pl=new AMapRef.Polyline({path:[a.lnglat,b.lnglat],strokeColor:r.color,strokeWeight:5,strokeStyle:"dashed",strokeOpacity:.65});map.add(pl);polylines.push(pl);fit.push(pl)}}save(true);renderSummary();renderRoutes();if(fit.length)map.setFitView(fit,false,[90,90,90,90])}
+function drivingSearch(s,e){return new Promise((res,rej)=>{let d=new AMapRef.Driving({policy:AMapRef.DrivingPolicy.LEAST_TIME});d.search(new AMapRef.LngLat(s[0],s[1]),new AMapRef.LngLat(e[0],e[1]),(st,r)=>st==="complete"?res(r):rej(r))})}
+function formatTime(sec){let m=Math.round(sec/60),h=Math.floor(m/60),mm=m%60;return h<=0?`${m}分钟`:`${h}小时${mm?mm+"分钟":""}`}
+
+function renderFoodDistrictLists(){
+  ["ningbo","taizhou"].forEach(city=>{
+    const data = cityFoodMaps[city];
+    const el = document.getElementById(city+"DistrictList");
+    if(!el) return;
+    el.innerHTML = data.districts.map(d=>`
+      <article class="district-card" onclick="focusFoodDistrict('${city}','${d.id}')">
+        <div class="district-head"><strong>${esc(d.name)}</strong><span class="district-chip">📍 ${d.markers.length}处</span></div>
+        <p class="district-desc">${esc(d.desc)}</p>
+        <div class="food-pill-list">${d.foods.map(f=>`<span class="food-pill">${esc(f)}</span>`).join("")}</div>
+      </article>
+    `).join("");
+  });
+}
+function initFoodMaps(){
+  renderFoodDistrictLists();
+  if(!AMapRef) return;
+  if(!foodMapState.info) foodMapState.info = new AMapRef.InfoWindow({offset:new AMapRef.Pixel(0,-32)});
+  Object.keys(cityFoodMaps).forEach(city=>{
+    const cfg = cityFoodMaps[city];
+    const mapId = city==="ningbo" ? "ningboFoodMap" : "taizhouFoodMap";
+    const emptyId = city==="ningbo" ? "ningboFoodEmpty" : "taizhouFoodEmpty";
+    const mapEl = document.getElementById(mapId);
+    const emptyEl = document.getElementById(emptyId);
+    if(!mapEl) return;
+    if(emptyEl) emptyEl.classList.remove("show");
+    if(!foodMapState[city]){
+      foodMapState[city] = new AMapRef.Map(mapId,{zoom:cfg.zoom,center:cfg.center,viewMode:"2D",mapStyle:"amap://styles/fresh"});
+      foodMapState[city].addControl(new AMapRef.Scale());
+      foodMapState[city].addControl(new AMapRef.ToolBar({position:{right:"12px",bottom:"18px"}}));
+    }
+    renderFoodMarkers(city);
+  });
+}
+function renderFoodMarkers(city){
+  const m = foodMapState[city];
+  if(!m || !AMapRef) return;
+  foodMapState.markers[city].forEach(x=>m.remove(x));
+  foodMapState.markers[city]=[];
+  const cfg = cityFoodMaps[city];
+  const fit = [];
+  cfg.districts.forEach(d=>{
+    const circle = new AMapRef.Circle({center:d.center,radius:city==="ningbo"?5200:6500,fillColor:"#1f7a4a",fillOpacity:0.06,strokeColor:"#1f7a4a",strokeOpacity:0.25,strokeWeight:2,strokeStyle:"dashed",zIndex:20});
+    m.add(circle); foodMapState.markers[city].push(circle); fit.push(circle);
+    d.markers.forEach(item=>{
+      const marker = new AMapRef.Marker({position:item.lnglat,content:`<div class="food-map-marker"><div class="bubble"><span>${esc(item.emoji||"🍜")}</span></div><div class="label">${esc(item.name)}</div></div>`,offset:new AMapRef.Pixel(0,0),zIndex:110});
+      marker.on("click",()=>openFoodInfo(city,d,item));
+      m.add(marker); foodMapState.markers[city].push(marker); fit.push(marker);
+    });
+  });
+  if(fit.length) m.setFitView(fit,false,[70,70,70,70]);
+}
+function openFoodInfo(city,d,item){
+  const m = foodMapState[city];
+  if(!m || !foodMapState.info) return;
+  foodMapState.info.setContent(`<div class="info-window"><h3>${esc(item.emoji||"🍜")} ${esc(item.name)}</h3><p><b>${esc(cityFoodMaps[city].name)} · ${esc(d.name)}</b></p><p><b>推荐：</b>${esc(item.food)}</p><p>${esc(item.tip)}</p><div>${d.foods.map(f=>`<span class="tag">${esc(f)}</span>`).join("")}</div></div>`);
+  foodMapState.info.open(m,item.lnglat);
+  m.setZoomAndCenter(13,item.lnglat);
+}
+function focusFoodDistrict(city,districtId){
+  const cfg = cityFoodMaps[city];
+  const d = cfg.districts.find(x=>x.id===districtId);
+  const m = foodMapState[city];
+  if(!d || !m) return;
+  m.setZoomAndCenter(12,d.center);
+  if(d.markers[0]) openFoodInfo(city,d,d.markers[0]);
+}
+function switchFoodCity(city){
+  const nb = document.getElementById("ningboFoodPanel");
+  const tz = document.getElementById("taizhouFoodPanel");
+  document.querySelectorAll(".food-tab").forEach(btn=>btn.classList.toggle("active",btn.dataset.foodCity===city));
+  if(nb) nb.classList.toggle("hidden",city!=="ningbo");
+  if(tz) tz.classList.toggle("hidden",city!=="taizhou");
+  setTimeout(()=>{ if(foodMapState[city]) foodMapState[city].resize(); },80);
+}
+document.addEventListener("click",e=>{
+  const btn = e.target.closest(".food-tab");
+  if(btn) switchFoodCity(btn.dataset.foodCity);
+});
+window.focusFoodDistrict = focusFoodDistrict;
+
+async function initMap(){renderAll();mapEmpty.classList.remove("show");if(!tripData.settings.amapKey){mapEmpty.classList.add("show");return}if(tripData.settings.amapSecurity)window._AMapSecurityConfig={securityJsCode:tripData.settings.amapSecurity};try{AMapRef=await AMapLoader.load({key:tripData.settings.amapKey,version:"2.0",plugins:["AMap.Scale","AMap.ToolBar","AMap.Geocoder","AMap.Driving"]});map=new AMapRef.Map("map",{zoom:8,center:[121.05,29.65],viewMode:"2D",mapStyle:"amap://styles/fresh"});map.addControl(new AMapRef.Scale());map.addControl(new AMapRef.ToolBar({position:{right:"18px",bottom:"120px"}}));geocoder=new AMapRef.Geocoder({city:"全国"});infoWindow=new AMapRef.InfoWindow({offset:new AMapRef.Pixel(0,-34)});await geocodeAll();renderMarkers();await calculateRoutes();initFoodMaps()}catch(err){console.error(err);mapEmpty.classList.add("show");["ningboFoodEmpty","taizhouFoodEmpty"].forEach(id=>{const el=document.getElementById(id);if(el)el.classList.add("show")});mapEmpty.querySelector(".map-empty-card").innerHTML=`<h3>地图加载失败</h3><p>请检查：①Key 类型是否为 Web端（JS API）；②securityJsCode 是否正确；③高德控制台域名白名单是否允许当前访问域名；④当前环境是否能访问高德地图脚本。</p><button class="btn primary" onclick="openSettings()">重新填写地图设置</button>`}}
+window.openSettings=openSettings;window.closeSettings=closeSettings;window.saveSettings=saveSettings;window.openPointEditor=openPointEditor;window.closePointModal=closePointModal;window.savePointFromModal=savePointFromModal;window.deleteCurrentPoint=deleteCurrentPoint;window.reGeocodeCurrentPoint=reGeocodeCurrentPoint;window.reGeocodePoint=reGeocodePoint;window.focusPoint=focusPoint;
+
+// iOS 文件预览兜底：如果按钮点击事件被预览容器吞掉，使用事件委托保证能响应
+document.addEventListener("click", function(e){
+  const settings = e.target.closest("#settingsBtn");
+  if(settings){ e.preventDefault(); openSettings(); }
+  const edit = e.target.closest("#editToggle");
+  if(edit && typeof editToggle.onclick === "function"){ /* 原 onclick 会执行 */ }
+}, true);
+
+renderAll();initMap();
+</script>
+</body>
+</html>
