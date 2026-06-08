@@ -1,0 +1,3434 @@
+{
+  "basic": {
+    "title": "上海出发｜宁波·临海·台州 3天2晚自驾攻略",
+    "subtitle": "9:30 从龙柏七村小区门口集合出发，第一晚住宁波海曙区中山东路81号，第二晚住台州椒江区广场中路1号；地图路线、点位、攻略内容均可实时编辑并自动保存。",
+    "start": "龙柏七村小区门口集合",
+    "startTime": "Day 1 · 09:30",
+    "ningboHotel": "海曙区·中山东路81号",
+    "taizhouHotel": "椒江区·广场中路1号",
+    "badge": "上海出发 · 宁波 · 临海 · 台州 · 闭环自驾"
+  },
+  "routes": [
+    {
+      "id": "r1",
+      "name": "上海 → 宁波",
+      "day": "Day 1",
+      "departAt": "2026-06-07T09:30",
+      "from": "sh-start",
+      "to": "nb-hotel",
+      "color": "#2563eb",
+      "distance": "待计算",
+      "duration": "待计算",
+      "note": "龙柏七村小区门口集合，自驾前往宁波海曙区中山东路81号。"
+    },
+    {
+      "id": "r2",
+      "name": "宁波 → 台州临海",
+      "day": "Day 2",
+      "departAt": "2026-06-08T08:30",
+      "from": "nb-hotel",
+      "to": "lh-ancient",
+      "color": "#16a34a",
+      "distance": "待计算",
+      "duration": "待计算",
+      "note": "从宁波住宿点出发，自驾前往临海古城。"
+    },
+    {
+      "id": "r3",
+      "name": "临海 → 台州市中心",
+      "day": "Day 2",
+      "departAt": "2026-06-08T15:50",
+      "from": "lh-ancient",
+      "to": "tz-hotel",
+      "color": "#ea580c",
+      "distance": "待计算",
+      "duration": "待计算",
+      "note": "临海游玩后前往椒江区广场中路1号。"
+    },
+    {
+      "id": "r4",
+      "name": "台州市中心 → 上海",
+      "day": "Day 3",
+      "departAt": "2026-06-09T13:30",
+      "from": "tz-hotel",
+      "to": "sh-start",
+      "color": "#7c3aed",
+      "distance": "待计算",
+      "duration": "待计算",
+      "note": "第三天离开台州，自驾返回上海。"
+    }
+  ],
+  "days": [
+    {
+      "title": "Day 1｜上海 → 宁波",
+      "theme": "自驾抵达 · 宁波 citywalk · 夜游外滩",
+      "items": [
+        {
+          "time": "09:30",
+          "text": "龙柏七村小区门口集合，检查证件、充电/加油、导航与高速路况后出发前往宁波。",
+          "traffic": "自驾｜上海龙柏七村 → 宁波海曙区中山东路81号｜约2.5-3.5小时"
+        },
+        {
+          "time": "12:30-13:30",
+          "text": "抵达宁波住宿点，办理入住或寄存行李；午餐建议安排宁波汤圆、海鲜、年糕类。",
+          "traffic": "抵达后短途停车/步行｜约5-15分钟"
+        },
+        {
+          "time": "14:00-17:00",
+          "text": "天一阁、月湖、鼓楼一线 citywalk，适合拍照、散步、喝咖啡。",
+          "traffic": "citywalk + 短途打车｜单段约5-15分钟"
+        },
+        {
+          "time": "17:30-18:30",
+          "text": "前往老外滩看江边建筑与夜景，傍晚光线适合拍照。",
+          "traffic": "鼓楼/月湖 → 老外滩｜约15-25分钟"
+        },
+        {
+          "time": "19:00-21:00",
+          "text": "南塘老街或天一广场周边觅食，晚上返回宁波住宿点。",
+          "traffic": "老外滩 → 南塘老街/天一广场｜约10-25分钟"
+        }
+      ]
+    },
+    {
+      "title": "Day 2｜宁波 → 台州临海 → 台州市中心",
+      "theme": "古城摄影 · 紫阳街美食 · 17:00到台州市中心",
+      "items": [
+        {
+          "time": "08:30-11:00",
+          "text": "从宁波住宿点出发，自驾前往台州临海，建议直接导航到台州府城墙/兴善门或紫阳街附近停车场。",
+          "traffic": "自驾｜宁波住宿点 → 台州临海古城｜约2-2.5小时"
+        },
+        {
+          "time": "11:00-13:00",
+          "text": "临海午餐，优先安排麦虾、麦饼、蛋清羊尾、海苔饼等当地小吃。",
+          "traffic": "步行觅食｜紫阳街周边｜约5-15分钟/段"
+        },
+        {
+          "time": "13:00-15:50",
+          "text": "台州府城墙、紫阳街、东湖、龙兴寺一线游玩拍照，注意预留取车时间。",
+          "traffic": "古城步行｜府城墙、紫阳街、东湖、龙兴寺｜约5-20分钟/段"
+        },
+        {
+          "time": "15:50-17:00",
+          "text": "自驾前往台州市中心，计划17:00左右抵达椒江区广场中路1号住宿点。",
+          "traffic": "自驾｜临海 → 台州市中心椒江区广场中路1号｜约50-70分钟"
+        },
+        {
+          "time": "18:00-21:00",
+          "text": "台州市中心晚餐，可考虑姜汤面、海鲜排档、炊圆或葭沚老街夜游。",
+          "traffic": "市中心晚餐与夜游｜单段约10-25分钟"
+        }
+      ]
+    },
+    {
+      "title": "Day 3｜台州市中心 → 上海",
+      "theme": "轻松补点 · 美食收尾 · 自驾返沪",
+      "items": [
+        {
+          "time": "09:30-11:30",
+          "text": "台州市中心轻松补点：椒江老街、葭沚老街、台州博物馆或和合公园。",
+          "traffic": "台州市中心补点｜单段约10-25分钟"
+        },
+        {
+          "time": "11:30-13:00",
+          "text": "台州午餐收尾，适合安排姜汤面、食饼筒、海鲜或本地小吃。",
+          "traffic": "午餐收尾｜约10-20分钟"
+        },
+        {
+          "time": "13:30-19:00",
+          "text": "离开台州，自驾返回上海；建议中途安排1次服务区休息，避开晚高峰。",
+          "traffic": "自驾｜台州市中心 → 上海龙柏七村｜约4.5-5.5小时"
+        },
+        {
+          "time": "晚上",
+          "text": "抵达上海，结束3天2晚自驾旅行。",
+          "traffic": "抵达时间以高德实时路况为准"
+        }
+      ]
+    }
+  ],
+  "points": [
+    {
+      "id": "sh-start",
+      "type": "start",
+      "name": "龙柏七村小区门口集合",
+      "address": "上海市闵行区龙柏七村",
+      "city": "上海",
+      "desc": "本次自驾出发集合点。",
+      "icon": "car",
+      "emoji": "📍",
+      "color": "#b91c1c",
+      "tags": [
+        "集合点",
+        "自驾起点"
+      ],
+      "image": "",
+      "rating": 3,
+      "lnglat": [
+        121.381,
+        31.188
+      ],
+      "imageFallback": "",
+      "region": "上海出发点"
+    },
+    {
+      "id": "nb-hotel",
+      "type": "hotel",
+      "name": "宁波住宿点｜中山东路81号",
+      "address": "浙江省宁波市海曙区中山东路81号",
+      "city": "宁波",
+      "desc": "第一晚住宿点，衔接天一阁、鼓楼、月湖、老外滩。",
+      "icon": "hotel",
+      "emoji": "🏨",
+      "color": "#c75a12",
+      "tags": [
+        "第1晚",
+        "海曙区"
+      ],
+      "image": "",
+      "rating": 4,
+      "lnglat": [
+        121.55,
+        29.873
+      ],
+      "imageFallback": "",
+      "region": "海曙区"
+    },
+    {
+      "id": "tz-hotel",
+      "type": "hotel",
+      "name": "台州住宿点｜广场中路1号",
+      "address": "浙江省台州市椒江区广场中路1号",
+      "city": "台州",
+      "desc": "第二晚住宿点，位于台州市中心椒江区。",
+      "icon": "bed",
+      "emoji": "🛏️",
+      "color": "#c75a12",
+      "tags": [
+        "第2晚",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "lnglat": [
+        121.427,
+        28.662
+      ],
+      "imageFallback": "",
+      "region": "椒江区"
+    },
+    {
+      "id": "nb-tianyige",
+      "type": "poi",
+      "name": "天一阁博物院",
+      "address": "浙江省宁波市海曙区天一街10号",
+      "city": "宁波",
+      "desc": "宁波代表性文化地标，藏书楼、园林和月湖可一起安排，适合第一天下午。",
+      "icon": "landmark",
+      "emoji": "🏛️",
+      "color": "#15803d",
+      "tags": [
+        "文化",
+        "摄影",
+        "必去"
+      ],
+      "image": "images/tianyige.jpg",
+      "rating": 5,
+      "lnglat": [
+        121.537,
+        29.873
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%232f6f5f%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23c7a76c%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%93%9A%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%A4%A9%E4%B8%80%E9%98%81%E5%8D%9A%E7%89%A9%E9%99%A2%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-yuehu",
+      "type": "poi",
+      "name": "月湖公园",
+      "address": "浙江省宁波市海曙区月湖",
+      "city": "宁波",
+      "desc": "宁波市中心轻松散步点，适合从天一阁步行延伸，夏季湖景很舒服。",
+      "icon": "trees",
+      "emoji": "🌿",
+      "color": "#15803d",
+      "tags": [
+        "citywalk",
+        "湖景"
+      ],
+      "image": "images/yuehu.jpg",
+      "rating": 3,
+      "lnglat": [
+        121.543,
+        29.869
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%234c8a73%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%238ecae6%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8C%BF%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E6%9C%88%E6%B9%96%E5%85%AC%E5%9B%AD%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-gulou",
+      "type": "poi",
+      "name": "宁波鼓楼",
+      "address": "浙江省宁波市海曙区鼓楼",
+      "city": "宁波",
+      "desc": "老城核心街区，适合吃小吃、逛街、拍街景，可和天一阁、月湖串联。",
+      "icon": "building",
+      "emoji": "🏯",
+      "color": "#15803d",
+      "tags": [
+        "老城",
+        "小吃"
+      ],
+      "image": "images/gulou.jpg",
+      "rating": 4,
+      "lnglat": [
+        121.546,
+        29.878
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%237c5c3b%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23d99f6c%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%AF%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%AE%81%E6%B3%A2%E9%BC%93%E6%A5%BC%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-laowaitan",
+      "type": "poi",
+      "name": "宁波老外滩",
+      "address": "浙江省宁波市江北区老外滩",
+      "city": "宁波",
+      "desc": "适合傍晚到夜间游玩，江边建筑和夜景出片。",
+      "icon": "camera",
+      "emoji": "📷",
+      "color": "#15803d",
+      "tags": [
+        "夜景",
+        "摄影",
+        "推荐"
+      ],
+      "image": "images/laowaitan.jpg",
+      "rating": 5,
+      "lnglat": [
+        121.559,
+        29.887
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%231d4e89%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%238b5cf6%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8C%83%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%AE%81%E6%B3%A2%E8%80%81%E5%A4%96%E6%BB%A9%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "江北区"
+    },
+    {
+      "id": "nb-nantang",
+      "type": "poi",
+      "name": "南塘老街",
+      "address": "浙江省宁波市海曙区南塘老街",
+      "city": "宁波",
+      "desc": "夜间觅食和散步选择，可作为 Day 1 晚餐备选区域。",
+      "icon": "store",
+      "emoji": "🏮",
+      "color": "#15803d",
+      "tags": [
+        "美食街",
+        "夜游"
+      ],
+      "image": "images/nantang.jpg",
+      "rating": 4,
+      "lnglat": [
+        121.542,
+        29.849
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%23aa4a24%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23f2b66d%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%AE%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8D%97%E5%A1%98%E8%80%81%E8%A1%97%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "海曙区"
+    },
+    {
+      "id": "lh-ancient",
+      "type": "poi",
+      "name": "台州府城墙｜兴善门",
+      "address": "浙江省台州市临海市台州府城文化旅游区兴善门",
+      "city": "临海",
+      "desc": "临海核心打卡点，与紫阳街、东湖相邻串联，登高拍古城很出片。",
+      "icon": "castle",
+      "emoji": "🏰",
+      "color": "#15803d",
+      "tags": [
+        "古城",
+        "临海",
+        "必去"
+      ],
+      "image": "images/taizhou-fuchengqiang.jpg",
+      "rating": 5,
+      "lnglat": [
+        121.123,
+        28.85
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%23476b45%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23c8a968%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%B0%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%B0%E5%B7%9E%E5%BA%9C%E5%9F%8E%E5%A2%99%EF%BD%9C%E5%85%B4%E5%96%84%E9%97%A8%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "临海古城片区"
+    },
+    {
+      "id": "lh-ziyang",
+      "type": "poi",
+      "name": "紫阳街",
+      "address": "浙江省台州市临海市紫阳街",
+      "city": "临海",
+      "desc": "临海小吃和古街拍照重点区域，适合安排午餐和下午 citywalk。",
+      "icon": "pin",
+      "emoji": "📍",
+      "color": "#15803d",
+      "tags": [
+        "古街",
+        "美食",
+        "必去"
+      ],
+      "image": "images/ziyangjie.jpg",
+      "rating": 5,
+      "lnglat": [
+        121.126,
+        28.852
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%232e7d7b%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%239fd8c7%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%AE%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E7%B4%AB%E9%98%B3%E8%A1%97%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "临海古城片区"
+    },
+    {
+      "id": "lh-donghu",
+      "type": "poi",
+      "name": "临海东湖",
+      "address": "浙江省台州市临海市东湖",
+      "city": "临海",
+      "desc": "古城旁的湖景点，适合和府城墙、紫阳街一起走，节奏更轻松。",
+      "icon": "waves",
+      "emoji": "🛶",
+      "color": "#15803d",
+      "tags": [
+        "湖景",
+        "摄影"
+      ],
+      "image": "images/linhai-donghu.jpg",
+      "rating": 4,
+      "lnglat": [
+        121.131,
+        28.853
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%2352796f%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23cad2c5%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%9B%B6%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E4%B8%B4%E6%B5%B7%E4%B8%9C%E6%B9%96%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "临海古城片区"
+    },
+    {
+      "id": "lh-longxing",
+      "type": "poi",
+      "name": "龙兴寺",
+      "address": "浙江省台州市临海市龙兴寺",
+      "city": "临海",
+      "desc": "临海古城内可顺路补充的安静点位，适合看古建和拍照。",
+      "icon": "landmark",
+      "emoji": "🛕",
+      "color": "#15803d",
+      "tags": [
+        "古建",
+        "安静"
+      ],
+      "image": "images/longxingsi.jpg",
+      "rating": 3,
+      "lnglat": [
+        121.128,
+        28.849
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%235b8c5a%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23b8d8ba%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%9B%95%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E9%BE%99%E5%85%B4%E5%AF%BA%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "临海古城片区"
+    },
+    {
+      "id": "tz-jiazhi",
+      "type": "poi",
+      "name": "葭沚老街",
+      "address": "浙江省台州市椒江区葭沚老街",
+      "city": "台州",
+      "desc": "台州市区休闲街区，可安排晚餐后散步和夜游。",
+      "icon": "store",
+      "emoji": "🏮",
+      "color": "#15803d",
+      "tags": [
+        "夜游",
+        "椒江",
+        "推荐"
+      ],
+      "image": "images/jiazhi-laojie.jpg",
+      "rating": 5,
+      "lnglat": [
+        121.404,
+        28.666
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%236d597a%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23e6ccb2%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%AE%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E8%91%AD%E6%B2%9A%E8%80%81%E8%A1%97%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-jiaojiang-old",
+      "type": "poi",
+      "name": "椒江老街",
+      "address": "浙江省台州市椒江区椒江老街",
+      "city": "台州",
+      "desc": "台州市中心老街氛围，适合第三天上午轻松补点。",
+      "icon": "pin",
+      "emoji": "🏘️",
+      "color": "#15803d",
+      "tags": [
+        "老街",
+        "citywalk"
+      ],
+      "image": "images/jiaojiang-laojie.jpg",
+      "rating": 4,
+      "lnglat": [
+        121.442,
+        28.681
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%232f6f5f%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23c7a76c%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%AE%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E6%A4%92%E6%B1%9F%E8%80%81%E8%A1%97%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-museum",
+      "type": "poi",
+      "name": "台州博物馆",
+      "address": "浙江省台州市椒江区台州博物馆",
+      "city": "台州",
+      "desc": "适合雨天或慢节奏了解台州历史文化，第三天上午可安排。",
+      "icon": "landmark",
+      "emoji": "🏛️",
+      "color": "#15803d",
+      "tags": [
+        "室内",
+        "文化"
+      ],
+      "image": "images/taizhou-museum.jpg",
+      "rating": 3,
+      "lnglat": [
+        121.429,
+        28.662
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%234c8a73%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%238ecae6%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%9B%EF%B8%8F%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%B0%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-park",
+      "type": "poi",
+      "name": "和合公园",
+      "address": "浙江省台州市椒江区和合公园",
+      "city": "台州",
+      "desc": "市中心轻松散步点，适合返程前不赶时间的补充。",
+      "icon": "trees",
+      "emoji": "🌳",
+      "color": "#15803d",
+      "tags": [
+        "公园",
+        "轻松"
+      ],
+      "image": "images/hehe-park.jpg",
+      "rating": 3,
+      "lnglat": [
+        121.42,
+        28.657
+      ],
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%237c5c3b%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23d99f6c%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8C%B3%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%92%8C%E5%90%88%E5%85%AC%E5%9B%AD%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "region": "椒江区"
+    },
+    {
+      "id": "food-nb",
+      "type": "food",
+      "name": "宁波汤圆/海鲜/年糕",
+      "address": "浙江省宁波市海曙区鼓楼",
+      "city": "宁波",
+      "desc": "宁波代表性美食，适合鼓楼、天一广场、南塘老街附近安排。",
+      "icon": "food",
+      "emoji": "🍜",
+      "color": "#c75a12",
+      "tags": [
+        "宁波汤圆",
+        "海鲜",
+        "年糕"
+      ],
+      "image": "",
+      "rating": 5,
+      "lnglat": [
+        121.546,
+        29.878
+      ],
+      "imageFallback": "",
+      "region": "海曙区"
+    },
+    {
+      "id": "food-lh",
+      "type": "food",
+      "name": "临海麦虾/蛋清羊尾",
+      "address": "浙江省台州市临海市紫阳街",
+      "city": "临海",
+      "desc": "紫阳街周边小吃，麦虾、蛋清羊尾、海苔饼、麦饼都可加入清单。",
+      "icon": "food",
+      "emoji": "🥢",
+      "color": "#c75a12",
+      "tags": [
+        "麦虾",
+        "蛋清羊尾"
+      ],
+      "image": "",
+      "rating": 5,
+      "lnglat": [
+        121.126,
+        28.852
+      ],
+      "imageFallback": "",
+      "region": "临海古城片区"
+    },
+    {
+      "id": "food-tz",
+      "type": "food",
+      "name": "台州姜汤面/海鲜排档",
+      "address": "浙江省台州市椒江区葭沚老街",
+      "city": "台州",
+      "desc": "第二晚可安排台州姜汤面、海鲜排档、炊圆等。",
+      "icon": "food",
+      "emoji": "🍲",
+      "color": "#c75a12",
+      "tags": [
+        "姜汤面",
+        "海鲜"
+      ],
+      "image": "",
+      "rating": 5,
+      "lnglat": [
+        121.404,
+        28.666
+      ],
+      "imageFallback": "",
+      "region": "椒江区"
+    },
+    {
+      "id": "nb-food-c6b7707b84",
+      "type": "food",
+      "name": "一尾寻仙（华严步行街店）",
+      "address": "浙江省宁波市鄞州区华严街105号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜海鲜/本帮菜。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "海鲜/本帮菜",
+        "海鲜",
+        "本帮菜"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-9350f83b72",
+      "type": "food",
+      "name": "小漁廠私厨・宁波渔家菜",
+      "address": "浙江省宁波市鄞州区东部新城宁穿路1888号文化广场C区1-1号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜海鲜/本帮菜。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "海鲜/本帮菜",
+        "海鲜",
+        "本帮菜"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-b5922bca27",
+      "type": "food",
+      "name": "宁海食府・首店（鼓楼孝闻店）",
+      "address": "浙江省宁波市海曙区孝闻街73弄1-8号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜海鲜/本帮菜。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "海鲜/本帮菜",
+        "海鲜",
+        "本帮菜"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-ddc4fed382",
+      "type": "food",
+      "name": "宁海食府（总店・天一阁望京店）",
+      "address": "浙江省宁波市海曙区望京路238号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜海鲜/本帮菜。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "海鲜/本帮菜",
+        "海鲜",
+        "本帮菜"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-71e73ba16b",
+      "type": "food",
+      "name": "阿拉名灶・阿拉宁波人的味道（镇明路）",
+      "address": "浙江省宁波市海曙区镇明路137号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜海鲜/本帮菜。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "海鲜/本帮菜",
+        "海鲜",
+        "本帮菜"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-5fdd055bde",
+      "type": "food",
+      "name": "甬上名灶・首店（环城西路南段店）",
+      "address": "浙江省宁波市海曙区环城西路南段429号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜海鲜/本帮菜。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "海鲜/本帮菜",
+        "海鲜",
+        "本帮菜"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-1bd090ecee",
+      "type": "food",
+      "name": "原製原味・地道舟山海鲜（天一国购店）",
+      "address": "浙江省宁波市海曙区中山东路220号宁波第二百货商店6楼",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜海鲜/本帮菜。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "海鲜/本帮菜",
+        "海鲜",
+        "本帮菜"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-e1f7089343",
+      "type": "food",
+      "name": "富豪食堂・宁波本帮私房菜",
+      "address": "浙江省宁波市海曙区月湖街道仓桥街35弄10号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜海鲜/本帮菜。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "海鲜/本帮菜",
+        "海鲜",
+        "本帮菜"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-a956ad717c",
+      "type": "food",
+      "name": "宁波状元楼酒店（鄞州万达店）",
+      "address": "浙江省宁波市鄞州区四明中路999号万达广场3楼",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜海鲜/本帮菜。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "海鲜/本帮菜",
+        "海鲜",
+        "本帮菜"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-e1103e5a5e",
+      "type": "food",
+      "name": "小时候焗海鲜（海曙亚细亚店）",
+      "address": "浙江省宁波市海曙区药行街169号亚细亚75mall6楼",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜海鲜/本帮菜。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "海鲜/本帮菜",
+        "海鲜",
+        "本帮菜"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-9444afca46",
+      "type": "food",
+      "name": "麦田工坊（月湖店）",
+      "address": "浙江省宁波市海曙区镇明路548号新荟天地B座1楼",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜海鲜/本帮菜。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "海鲜/本帮菜",
+        "海鲜",
+        "本帮菜"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-2ad9f10d67",
+      "type": "food",
+      "name": "名門砂锅",
+      "address": "浙江省宁波市镇海区招宝山街道苗圃路128号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜海鲜/本帮菜。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "海鲜/本帮菜",
+        "海鲜",
+        "本帮菜"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "镇海区"
+    },
+    {
+      "id": "nb-food-8f5cb8ca35",
+      "type": "food",
+      "name": "斗门・宁波地标美食（天一广场店）",
+      "address": "浙江省宁波市海曙区开明街330号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-ab0f8bc11a",
+      "type": "food",
+      "name": "固海糕团店",
+      "address": "浙江省宁波市海曙区西河街119号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-e306612fb8",
+      "type": "food",
+      "name": "宁海麦饼（华严街店）",
+      "address": "浙江省宁波市鄞州区华严街81-112号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-9e655bec01",
+      "type": "food",
+      "name": "天天锅贴王（迎凤街店）",
+      "address": "浙江省宁波市海曙区迎凤街130号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-8a63f9087a",
+      "type": "food",
+      "name": "仓桥面结店",
+      "address": "浙江省宁波市海曙区仓桥街117号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-fed9c286cc",
+      "type": "food",
+      "name": "宁海小吃（柳庄小区店）",
+      "address": "浙江省宁波市海曙区柳庄街68弄2号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-e1c243780b",
+      "type": "food",
+      "name": "梁弄大糕（公园路店）",
+      "address": "浙江省宁波市海曙区公园路105号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-813cdfa061",
+      "type": "food",
+      "name": "象山小白象海鲜面",
+      "address": "浙江省宁波市江北区大庆南路215号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "江北区"
+    },
+    {
+      "id": "nb-food-170f4f89f5",
+      "type": "food",
+      "name": "木木鲜海鲜面（天一店）",
+      "address": "浙江省宁波市海曙区偃月街111号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-bff2f8f059",
+      "type": "food",
+      "name": "茗香馄饨王",
+      "address": "浙江省宁波市海曙区府桥街68弄18号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-ccc6ca5e5a",
+      "type": "food",
+      "name": "面食早点（月湖店）",
+      "address": "浙江省宁波市海曙区镇明路500号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-5f83910670",
+      "type": "food",
+      "name": "温岭懒肚人年糕（王隘店）",
+      "address": "浙江省宁波市鄞州区王隘路149号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-c4b2f8a7ac",
+      "type": "food",
+      "name": "清一米匠年糕店",
+      "address": "浙江省宁波市鄞州区东钱湖镇莫枝村莫枝南路128号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-6f6b6ccdb9",
+      "type": "food",
+      "name": "聚鲜天天营养早餐",
+      "address": "浙江省宁波市海曙区顺德路136弄28号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-e130d7b1dc",
+      "type": "food",
+      "name": "奉化点心（呼童街店）",
+      "address": "浙江省宁波市海曙区呼童街66号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-5faad19d96",
+      "type": "food",
+      "name": "如辉奉化点心（天一店）",
+      "address": "浙江省宁波市海曙区碶闸街116号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-3bd782cb0e",
+      "type": "food",
+      "name": "二佬粽子",
+      "address": "浙江省宁波市鄞州区华严街103号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-2a432076bb",
+      "type": "food",
+      "name": "奉轩坊手工糕点（溪口店）",
+      "address": "浙江省宁波市奉化区溪口镇经堂路117号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面馆/小吃/点心。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面馆/小吃/点心",
+        "小吃",
+        "点心"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "奉化区"
+    },
+    {
+      "id": "nb-food-58950284b6",
+      "type": "food",
+      "name": "YOOOOSHARE（带梦店）",
+      "address": "浙江省宁波市鄞州区钟公庙街道嵩江中路1002号带梦胡同C1001",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-5311d71adc",
+      "type": "food",
+      "name": "YOOOOSHARE（天一店）",
+      "address": "浙江省宁波市海曙区和义路100号1844和义艺术生活中心F1层",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-288426d620",
+      "type": "food",
+      "name": "久日面包",
+      "address": "浙江省宁波市鄞州区四明中路999号万达广场金座1楼",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-750be0b3a9",
+      "type": "food",
+      "name": "樹仔腳冰店",
+      "address": "浙江省宁波市鄞州区四明中路688号利时城市奥特莱斯1楼",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-55a7c77a01",
+      "type": "food",
+      "name": "方大人手作（天一店）",
+      "address": "浙江省宁波市海曙区开明街298号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-273093a423",
+      "type": "food",
+      "name": "neeeeeeiga（鼓楼店）",
+      "address": "浙江省宁波市海曙区呼童街52号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-7586e4fc3f",
+      "type": "food",
+      "name": "有盐",
+      "address": "浙江省宁波市鄞州区彩虹北路46-1号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-54a43b5225",
+      "type": "food",
+      "name": "行行的面包",
+      "address": "浙江省宁波市海曙区月湖街道仓桥街35弄12号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-2e0052f7c0",
+      "type": "food",
+      "name": "Full Full（欢乐海岸面包店）",
+      "address": "浙江省宁波市鄞州区钟公庙街道樟溪路欢乐海岸商业广场B1层B1019号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-029e623c77",
+      "type": "food",
+      "name": "CAKE CRUSH 蛋糕爆炸（月湖店）",
+      "address": "浙江省宁波市海曙区镇明路538号新荟天地C座1楼",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-84240a960f",
+      "type": "food",
+      "name": "七日酵室・面包・蛋糕・咖啡",
+      "address": "浙江省宁波市鄞州区四明中路999号万达广场金座1楼",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-ced1ee229b",
+      "type": "food",
+      "name": "MonEpoque 莫逆时光（钻石广场店）",
+      "address": "浙江省宁波市江北区大庆南路99号来福士广场B1层",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "江北区"
+    },
+    {
+      "id": "nb-food-2e5a64648d",
+      "type": "food",
+      "name": "inni（华严巷店）",
+      "address": "浙江省宁波市鄞州区华严巷37号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-e83f447c80",
+      "type": "food",
+      "name": "Salty Bakery 咸咸面包店",
+      "address": "浙江省宁波市鄞州区钱湖北路288号印象城B1层",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-a160dcf41c",
+      "type": "food",
+      "name": "余味・bakery（月湖店）",
+      "address": "浙江省宁波市海曙区中山西路118号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-4b3f4b1033",
+      "type": "food",
+      "name": "Ananas et Koala 考凤梨（镇明路店）",
+      "address": "浙江省宁波市海曙区镇明路552号新荟天地D座1楼",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-529e9ea72e",
+      "type": "food",
+      "name": "Luckygelato（孝闻永寿小区店）",
+      "address": "浙江省宁波市海曙区孝闻街175号永寿小区1号楼1-1",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜面包/甜品/冰淇淋。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "面包/甜品/冰淇淋",
+        "甜品",
+        "面包"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-527def532d",
+      "type": "food",
+      "name": "HOLIDAY 休日（后田垟巷店）",
+      "address": "浙江省宁波市鄞州区后田垟巷10号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-296c6f8dcb",
+      "type": "food",
+      "name": "茶救星球・蔬果茶（东鼓道店）",
+      "address": "浙江省宁波市海曙区东鼓道B1层B1-29-2号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-87d137c6f7",
+      "type": "food",
+      "name": "古茗（海曙区东鼓道店）",
+      "address": "浙江省宁波市海曙区东鼓道B1层B1-31号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-9184b538f3",
+      "type": "food",
+      "name": "烟火咖啡",
+      "address": "浙江省宁波市海曙区和义路100号1844和义艺术生活中心F1层",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-eb50b8a45f",
+      "type": "food",
+      "name": "DEW COFFEE（廨院巷店）",
+      "address": "浙江省宁波市鄞州区廨院巷86号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-fc4058c4b8",
+      "type": "food",
+      "name": "PINECONE",
+      "address": "浙江省宁波市海曙区府桥街68弄18号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-5166765d50",
+      "type": "food",
+      "name": "ECHO Cafe 回响咖啡",
+      "address": "浙江省宁波市鄞州区东钱湖旅游度假区环湖东路1398号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-b3352fec53",
+      "type": "food",
+      "name": "Nano Coffee（后田垟巷店）",
+      "address": "浙江省宁波市鄞州区后田垟巷20号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-45d526fbda",
+      "type": "food",
+      "name": "HUG COFFEE（鼓楼店）",
+      "address": "浙江省宁波市海曙区府桥街148号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-186999b3b4",
+      "type": "food",
+      "name": "cafebeing（贺丞路店）",
+      "address": "浙江省宁波市鄞州区贺丞路222号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-ea4023ee1f",
+      "type": "food",
+      "name": "cafebeing（钱湖北路店）",
+      "address": "浙江省宁波市鄞州区钱湖北路399号钱湖天地1楼",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-4a230c511d",
+      "type": "food",
+      "name": "coffee at 582",
+      "address": "浙江省宁波市海曙区月湖街道偃月街58-2号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-cdb030eb26",
+      "type": "food",
+      "name": "无物咖啡",
+      "address": "浙江省宁波市海曙区偃月街111号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-3d5e996cb7",
+      "type": "food",
+      "name": "Flying Squirrel coffee",
+      "address": "浙江省宁波市海曙区府桥街128号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-86433762e1",
+      "type": "food",
+      "name": "CLICK / 药獸（迎凤街店）",
+      "address": "浙江省宁波市海曙区迎凤街125号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-food-ae98eb9edb",
+      "type": "food",
+      "name": "抱缺美学空间",
+      "address": "浙江省宁波市鄞州区东钱湖镇韩岭村环湖东路1299号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-c653ceca2f",
+      "type": "food",
+      "name": "chill coffee",
+      "address": "浙江省宁波市鄞州区东钱湖镇韩岭村环湖东路1299号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-9da509e1d7",
+      "type": "food",
+      "name": "Cookiii Coffee（郭家峙店）",
+      "address": "浙江省宁波市鄞州区东钱湖镇郭家峙村环湖东路1000号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-bcbf87f12b",
+      "type": "food",
+      "name": "白鱼咖啡饮食店",
+      "address": "浙江省宁波市鄞州区东钱湖镇韩岭村环湖东路1299号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-84857065d6",
+      "type": "food",
+      "name": "优丸茶作（新河坊店）",
+      "address": "浙江省宁波市慈溪市白沙路街道新河坊云泰Park1号楼1-011号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "慈溪市"
+    },
+    {
+      "id": "nb-food-fe6cd9039d",
+      "type": "food",
+      "name": "something",
+      "address": "浙江省宁波市鄞州区高新区扬帆路999弄研发园B区1号楼15楼",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜咖啡/茶饮。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "☕",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "咖啡/茶饮",
+        "咖啡",
+        "茶饮",
+        "暂停营业"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-a72512f5dd",
+      "type": "food",
+      "name": "张斌桥菜场（宁穿路店）",
+      "address": "浙江省宁波市鄞州区宁穿路181号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜菜场/集市。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🛒",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "菜场/集市",
+        "菜场",
+        "集市"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-8bc6e0b54f",
+      "type": "food",
+      "name": "阿拉好菜场（世纪东方广场店）",
+      "address": "浙江省宁波市鄞州区中山东路1083号世纪东方广场B1层",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜菜场/集市。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🛒",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "菜场/集市",
+        "菜场",
+        "集市"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-food-6607cc6622",
+      "type": "food",
+      "name": "华严菜市场",
+      "address": "浙江省宁波市鄞州区华严街121号",
+      "city": "宁波",
+      "desc": "宁波收藏店铺｜菜场/集市。来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "food",
+      "emoji": "🛒",
+      "color": "#c75a12",
+      "tags": [
+        "宁波",
+        "菜场/集市",
+        "菜场",
+        "集市"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-poi-55c10d1126",
+      "type": "poi",
+      "name": "七塔禅寺",
+      "address": "浙江省宁波市鄞州区百丈路183号",
+      "city": "宁波",
+      "desc": "宁波景点收藏点位，来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "camera",
+      "emoji": "📷",
+      "color": "#15803d",
+      "tags": [
+        "宁波",
+        "景点",
+        "文化"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%231d4e89%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%238b5cf6%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%93%B7%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E4%B8%83%E5%A1%94%E7%A6%85%E5%AF%BA%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 3,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-poi-d642a52908",
+      "type": "poi",
+      "name": "东钱湖旅游度假区",
+      "address": "浙江省宁波市鄞州区东钱湖镇",
+      "city": "宁波",
+      "desc": "宁波景点收藏点位，来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "camera",
+      "emoji": "🌿",
+      "color": "#15803d",
+      "tags": [
+        "宁波",
+        "景点",
+        "东钱湖"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%23aa4a24%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23f2b66d%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8C%BF%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E4%B8%9C%E9%92%B1%E6%B9%96%E6%97%85%E6%B8%B8%E5%BA%A6%E5%81%87%E5%8C%BA%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 5,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-poi-5cd3c26416",
+      "type": "poi",
+      "name": "宁波府城隍庙",
+      "address": "浙江省宁波市海曙区县学街22号",
+      "city": "宁波",
+      "desc": "宁波景点收藏点位，来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "camera",
+      "emoji": "📷",
+      "color": "#15803d",
+      "tags": [
+        "宁波",
+        "景点",
+        "citywalk"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%23476b45%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23c8a968%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%AF%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%AE%81%E6%B3%A2%E5%BA%9C%E5%9F%8E%E9%9A%8D%E5%BA%99%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-poi-f92845976a",
+      "type": "poi",
+      "name": "永寿街",
+      "address": "浙江省宁波市海曙区永寿街",
+      "city": "宁波",
+      "desc": "宁波景点收藏点位，来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "camera",
+      "emoji": "📷",
+      "color": "#15803d",
+      "tags": [
+        "宁波",
+        "景点",
+        "citywalk"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%232e7d7b%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%239fd8c7%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%AE%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E6%B0%B8%E5%AF%BF%E8%A1%97%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "nb-poi-3bfa1eca3d",
+      "type": "poi",
+      "name": "韩岭老街",
+      "address": "浙江省宁波市鄞州区东钱湖镇韩岭村",
+      "city": "宁波",
+      "desc": "宁波景点收藏点位，来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "camera",
+      "emoji": "📷",
+      "color": "#15803d",
+      "tags": [
+        "宁波",
+        "景点",
+        "东钱湖",
+        "citywalk"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%2352796f%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23cad2c5%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%AE%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E9%9F%A9%E5%B2%AD%E8%80%81%E8%A1%97%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 4,
+      "region": "鄞州区"
+    },
+    {
+      "id": "nb-poi-8ef2025090",
+      "type": "poi",
+      "name": "宁波老外滩历史文化街区",
+      "address": "浙江省宁波市江北区中马路159号",
+      "city": "宁波",
+      "desc": "宁波景点收藏点位，来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "camera",
+      "emoji": "📷",
+      "color": "#15803d",
+      "tags": [
+        "宁波",
+        "景点",
+        "citywalk"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%235b8c5a%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23b8d8ba%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8C%83%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%AE%81%E6%B3%A2%E8%80%81%E5%A4%96%E6%BB%A9%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 5,
+      "region": "江北区"
+    },
+    {
+      "id": "nb-poi-6600548271",
+      "type": "poi",
+      "name": "鼓楼沿历史文化街区",
+      "address": "浙江省宁波市海曙区鼓楼街道",
+      "city": "宁波",
+      "desc": "宁波景点收藏点位，来自你上传的宁波攻略清单，可在地图上定位。",
+      "icon": "camera",
+      "emoji": "📷",
+      "color": "#15803d",
+      "tags": [
+        "宁波",
+        "景点",
+        "citywalk"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%236d597a%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23e6ccb2%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%AF%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E9%BC%93%E6%A5%BC%E6%B2%BF%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 4,
+      "region": "海曙区"
+    },
+    {
+      "id": "tz-food-126b99a1",
+      "type": "food",
+      "name": "平桥小吃街",
+      "address": "台州市椒江区西商务区平桥路（近椒江西商务区）",
+      "city": "台州",
+      "desc": "人均约¥22，美食聚集街",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-8d51d248",
+      "type": "food",
+      "name": "然香姜汁（江城小区店）",
+      "address": "台州市椒江区老城区江城路（近江城小区）",
+      "city": "台州",
+      "desc": "人均约¥24，老城区小吃热门榜第 4 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-fc19350a",
+      "type": "food",
+      "name": "白水洋扁食（岩屿路店）",
+      "address": "台州市椒江区花园路岩屿路附近",
+      "city": "台州",
+      "desc": "人均约¥18，馄饨/扁食",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-51127989",
+      "type": "food",
+      "name": "烈士山吕氏泡虾",
+      "address": "台州市椒江区十字马路（烈士山附近）",
+      "city": "台州",
+      "desc": "人均约¥17，十字马路小吃好评榜第 2 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-d990323d",
+      "type": "food",
+      "name": "伍一手打面（中山西路店）",
+      "address": "台州市椒江区中山西路（近花园路）",
+      "city": "台州",
+      "desc": "人均约¥23，花园路面馆热门榜第 3 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-e2915161",
+      "type": "food",
+      "name": "特色铁板烧（陶王店）",
+      "address": "台州市椒江区商业街商区（陶王路附近）",
+      "city": "台州",
+      "desc": "人均约¥36，台州日式铁板烧热门榜第 1 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州海鲜/排档",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-33916f92",
+      "type": "food",
+      "name": "马路桥臭豆腐（永泰街店）",
+      "address": "台州市椒江区东山公园附近永泰街",
+      "city": "台州",
+      "desc": "人均约¥11，东山公园小吃好评榜第 2 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-7917ce61",
+      "type": "food",
+      "name": "温岭特色无矾泡虾（育才路店）",
+      "address": "台州市椒江区东山公园附近育才路",
+      "city": "台州",
+      "desc": "人均约¥14，东山公园美食热门榜第 8 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-ad78f424",
+      "type": "food",
+      "name": "老牌肉粥（天河小区南区店）",
+      "address": "台州市椒江区东山公园附近天河小区南区",
+      "city": "台州",
+      "desc": "人均约¥21，东山公园小吃热门榜第 3 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-f95b7514",
+      "type": "food",
+      "name": "老街泡虾",
+      "address": "台州市椒江区东山公园附近（老城区）",
+      "city": "台州",
+      "desc": "人均约¥14，东山公园小吃好评榜第 1 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-950c97e4",
+      "type": "food",
+      "name": "特香面包（中山东路店）",
+      "address": "台州市椒江区中山东路（近十字马路）",
+      "city": "台州",
+      "desc": "人均约¥14，椒江区面包蛋糕好评榜第 1 名",
+      "icon": "utensils",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "甜品/面包/冷饮",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-83b5d54f",
+      "type": "food",
+      "name": "桂花树下梅花糕·小馋猫鸡蛋仔",
+      "address": "台州市椒江区花园路",
+      "city": "台州",
+      "desc": "人均约¥5，花园路面包/饮品热门榜第 2 名",
+      "icon": "utensils",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "甜品/面包/冷饮",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-8f31c0ce",
+      "type": "food",
+      "name": "冬芳蛋饼",
+      "address": "台州市椒江区花园路（近花园菜市场）",
+      "city": "台州",
+      "desc": "人均约¥16，花园路小吃好评榜第 1 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-17276a82",
+      "type": "food",
+      "name": "三中烧烤（中山支路店）",
+      "address": "台州市椒江区中山支路（近花园路）",
+      "city": "台州",
+      "desc": "人均约¥66，烤串",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州海鲜/排档",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-261c9fb7",
+      "type": "food",
+      "name": "璋园炒饭（岩屿路店）",
+      "address": "台州市椒江区花园路岩屿路",
+      "city": "台州",
+      "desc": "人均约¥18，花园路小吃热门榜第 2 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-09f035b4",
+      "type": "food",
+      "name": "拙味龙虾王（康平路店）",
+      "address": "台州市椒江区东商务区康平路",
+      "city": "台州",
+      "desc": "人均约¥105，台州小龙虾打卡人气榜第 2 名",
+      "icon": "utensils",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州海鲜/排档",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-f652a53e",
+      "type": "food",
+      "name": "缘记胖小馆海鲜馆",
+      "address": "台州市椒江区凤凰公园附近",
+      "city": "台州",
+      "desc": "人均约¥122，凤凰公园美食热门榜第 4 名",
+      "icon": "utensils",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州海鲜/排档",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-699aeda4",
+      "type": "food",
+      "name": "胖胖特色大肠糕",
+      "address": "台州市椒江区商业街商区",
+      "city": "台州",
+      "desc": "人均约¥32，商业街小吃热门榜第 4 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-0d10351a",
+      "type": "food",
+      "name": "SUNBAKE·山白",
+      "address": "台州市椒江区东商务区",
+      "city": "台州",
+      "desc": "人均约¥29，椒江区面包蛋糕热门榜第 1 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "甜品/面包/冷饮",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-d30280b1",
+      "type": "food",
+      "name": "陶糊记（永泰花园北区店）",
+      "address": "台州市椒江区东山公园附近永泰花园北区",
+      "city": "台州",
+      "desc": "人均约¥9，东山公园美食热门榜第 4 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-fd9456c5",
+      "type": "food",
+      "name": "好先生焗海鲜（椒江黑金冠店）",
+      "address": "台州市椒江区东商务区（黑金冠购物中心）",
+      "city": "台州",
+      "desc": "人均约¥82，东商务区鱼鲜热门榜第 2 名",
+      "icon": "utensils",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州海鲜/排档",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-9af63294",
+      "type": "food",
+      "name": "小秀蛋糕点心店",
+      "address": "台州市椒江区花园路",
+      "city": "台州",
+      "desc": "人均约¥27，花园路面包/饮品热门榜第 1 名",
+      "icon": "utensils",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "甜品/面包/冷饮",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-d09914bf",
+      "type": "food",
+      "name": "木棉花海鲜面馆（椒江广场南路店）",
+      "address": "台州市椒江区东商务区椒江广场南路",
+      "city": "台州",
+      "desc": "人均约¥30，台州面馆热门榜第 1 名",
+      "icon": "utensils",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州海鲜/排档",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-45d3bd20",
+      "type": "food",
+      "name": "一碗八宝饭（汔京街店）",
+      "address": "台州市椒江区西商务区汔京街",
+      "city": "台州",
+      "desc": "人均约¥24，台州甜品回头客榜第 1 名",
+      "icon": "utensils",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "甜品/面包/冷饮",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-c51da7f0",
+      "type": "food",
+      "name": "168 冷饮店（翠华小区店）",
+      "address": "台州市椒江区花园路翠华小区附近",
+      "city": "台州",
+      "desc": "人均约¥15，台州冰淇淋热门榜第 1 名",
+      "icon": "utensils",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "甜品/面包/冷饮",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-64e69d80",
+      "type": "food",
+      "name": "温岭郭阿姨泡虾",
+      "address": "台州市椒江区花园路",
+      "city": "台州",
+      "desc": "人均约¥13，花园路小吃环境榜第 3 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-a15a8b90",
+      "type": "food",
+      "name": "沈胖记麦虾（江城南路店）",
+      "address": "台州市椒江区老城区江城南路",
+      "city": "台州",
+      "desc": "人均约¥25，椒江区小吃面食好评榜第 2 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-286b38a8",
+      "type": "food",
+      "name": "沈胖记麦虾（岩屿路店）",
+      "address": "台州市椒江区花园路岩屿路",
+      "city": "台州",
+      "desc": "人均约¥21",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-843d9efe",
+      "type": "food",
+      "name": "拾陆小時麵包屋·每日现做",
+      "address": "台州市椒江区东商务区",
+      "city": "台州",
+      "desc": "人均约¥30，台州面包/饮品热门榜第 2 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "甜品/面包/冷饮",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-9b2c15da",
+      "type": "food",
+      "name": "泽泽万面包 THE1",
+      "address": "台州市椒江区东商务区",
+      "city": "台州",
+      "desc": "人均约¥34，台州面包/饮品热门榜第 1 名",
+      "icon": "utensils",
+      "emoji": "🍰",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "甜品/面包/冷饮",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-food-51ba64d8",
+      "type": "food",
+      "name": "郭记食饼筒（康平路店）",
+      "address": "台州市椒江区康平路（近界牌/欧尚超市）",
+      "city": "台州",
+      "desc": "人均约¥12，椒江区小吃面食热门榜第 6 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "台州小吃/面食",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "lh-food-62163f36",
+      "type": "food",
+      "name": "九九海苔饼",
+      "address": "台州市临海市老城区（紫阳街附近）",
+      "city": "临海",
+      "desc": "人均约¥17，台州面包蛋糕热门榜第 1 名",
+      "icon": "utensils",
+      "emoji": "🍘",
+      "color": "#c75a12",
+      "tags": [
+        "临海",
+        "临海糕点/伴手礼",
+        "紫阳街周边"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "临海古城片区"
+    },
+    {
+      "id": "lh-food-3f203048",
+      "type": "food",
+      "name": "山白面包（紫阳街店）",
+      "address": "台州市临海市老城区紫阳街",
+      "city": "临海",
+      "desc": "人均约¥22，面包蛋糕",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "临海",
+        "临海糕点/伴手礼",
+        "紫阳街周边"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "临海古城片区"
+    },
+    {
+      "id": "lh-food-6cf9a00d",
+      "type": "food",
+      "name": "洪池嵌糕店",
+      "address": "台州市临海市崇和门广场附近",
+      "city": "临海",
+      "desc": "人均约¥14，2026 年入围餐厅",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "临海",
+        "临海小吃",
+        "临海市"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "临海古城片区"
+    },
+    {
+      "id": "lh-food-2e3cc7f1",
+      "type": "food",
+      "name": "陈记乌饭麻糍",
+      "address": "台州市临海市老城区（紫阳街/西门街一带）",
+      "city": "临海",
+      "desc": "人均约¥15，台州小吃面食热门榜第 2 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "临海",
+        "临海小吃",
+        "紫阳街周边"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "临海古城片区"
+    },
+    {
+      "id": "lh-food-8756c694",
+      "type": "food",
+      "name": "回味油炸（望洋路店）",
+      "address": "台州市临海市望洋路（近崇和门广场）",
+      "city": "临海",
+      "desc": "人均约¥23，临海市小吃面食热门榜第 6 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "临海",
+        "临海小吃",
+        "临海市"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "临海古城片区"
+    },
+    {
+      "id": "lh-food-bb39a527",
+      "type": "food",
+      "name": "建军奶油排骨",
+      "address": "台州市临海市老城区（老城区街巷）",
+      "city": "临海",
+      "desc": "人均约¥23，炸鸡炸串",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "临海",
+        "临海小吃",
+        "临海市"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "临海古城片区"
+    },
+    {
+      "id": "lh-food-800a6ff1",
+      "type": "food",
+      "name": "新荣记（临海灵湖店）",
+      "address": "台州市临海市大洋新区灵湖路附近",
+      "city": "临海",
+      "desc": "人均约¥589，2026 上榜三钻餐厅，苏浙菜",
+      "icon": "utensils",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "临海",
+        "临海海鲜/本帮菜",
+        "临海市"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "临海市"
+    },
+    {
+      "id": "lh-food-e4b8fc4d",
+      "type": "food",
+      "name": "健跳小海鲜（人民路店）",
+      "address": "台州市临海市人民路（临海市区）",
+      "city": "临海",
+      "desc": "人均约¥136，临海市美食销量榜第 2 名",
+      "icon": "utensils",
+      "emoji": "🍤",
+      "color": "#c75a12",
+      "tags": [
+        "临海",
+        "临海海鲜/本帮菜",
+        "临海市"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "临海市"
+    },
+    {
+      "id": "lh-food-a378e973",
+      "type": "food",
+      "name": "临海小吃老黄炒麻糍（东湖店）",
+      "address": "台州市临海市崇和门广场附近（东湖旁）",
+      "city": "临海",
+      "desc": "人均约¥20，崇和门广场美食热门榜第 7 名",
+      "icon": "utensils",
+      "emoji": "🥟",
+      "color": "#c75a12",
+      "tags": [
+        "临海",
+        "临海小吃",
+        "临海市"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "临海古城片区"
+    },
+    {
+      "id": "lh-food-98328721",
+      "type": "food",
+      "name": "王天顺海苔饼",
+      "address": "台州市临海市老城区紫阳街（景区内）",
+      "city": "临海",
+      "desc": "人均约¥13，临海最知名伴手礼之一",
+      "icon": "utensils",
+      "emoji": "🍘",
+      "color": "#c75a12",
+      "tags": [
+        "临海",
+        "临海糕点/伴手礼",
+        "紫阳街周边"
+      ],
+      "image": "",
+      "rating": 5,
+      "region": "临海古城片区"
+    },
+    {
+      "id": "tz-poi-5705d354",
+      "type": "poi",
+      "name": "海门老街",
+      "address": "台州市椒江区人民路 86 号（北新椒街与人民路交叉口）",
+      "city": "台州",
+      "desc": "免费，历史文化街区，清末民初建筑群",
+      "icon": "landmark",
+      "emoji": "🏮",
+      "color": "#15803d",
+      "tags": [
+        "台州",
+        "景点",
+        "椒江区"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%232f6f5f%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23c7a76c%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%AE%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E6%B5%B7%E9%97%A8%E8%80%81%E8%A1%97%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 5,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-poi-6ba7ce82",
+      "type": "poi",
+      "name": "椒江云西公园",
+      "address": "台州市椒江区（星星广场附近，云西路）",
+      "city": "台州",
+      "desc": "免费，休闲公园",
+      "icon": "landmark",
+      "emoji": "🌳",
+      "color": "#15803d",
+      "tags": [
+        "台州",
+        "景点",
+        "椒江区"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%234c8a73%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%238ecae6%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8C%B3%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E6%A4%92%E6%B1%9F%E4%BA%91%E8%A5%BF%E5%85%AC%E5%9B%AD%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 3,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-poi-41c25070",
+      "type": "poi",
+      "name": "葭沚老街（蓑汕老街）",
+      "address": "台州市椒江区葭沚街道（工人西路 黄海公路段，葭中路一带）",
+      "city": "台州",
+      "desc": "免费，省级高品质步行街，2024 央视跨年晚会分会场",
+      "icon": "landmark",
+      "emoji": "🏮",
+      "color": "#15803d",
+      "tags": [
+        "台州",
+        "景点",
+        "椒江区"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%237c5c3b%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23d99f6c%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%AE%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E8%91%AD%E6%B2%9A%E8%80%81%E8%A1%97%EF%BC%88%E8%93%91%E6%B1%95%E8%80%81%E8%A1%97%EF%BC%89%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 5,
+      "region": "椒江区"
+    },
+    {
+      "id": "lh-poi-6b0028e8",
+      "type": "poi",
+      "name": "灵湖",
+      "address": "台州市临海市大洋新区灵湖路",
+      "city": "临海",
+      "desc": "免费，临海市自然景观好评榜第 1 名",
+      "icon": "landmark",
+      "emoji": "🌿",
+      "color": "#15803d",
+      "tags": [
+        "临海",
+        "景点",
+        "临海市"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%231d4e89%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%238b5cf6%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8C%BF%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E7%81%B5%E6%B9%96%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 4,
+      "region": "临海市"
+    },
+    {
+      "id": "lh-poi-c35ef490",
+      "type": "poi",
+      "name": "台州府城（东湖）",
+      "address": "台州市临海市崇和门广场（东湖路与泉井洋路交叉口附近）",
+      "city": "临海",
+      "desc": "免费，台州景点好评榜第 1 名，园林公园",
+      "icon": "landmark",
+      "emoji": "🏯",
+      "color": "#15803d",
+      "tags": [
+        "临海",
+        "景点",
+        "临海古城片区"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%23aa4a24%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23f2b66d%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%9B%B6%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%B0%E5%B7%9E%E5%BA%9C%E5%9F%8E%EF%BC%88%E4%B8%9C%E6%B9%96%EF%BC%89%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 5,
+      "region": "临海古城片区"
+    },
+    {
+      "id": "lh-poi-6620e56d",
+      "type": "poi",
+      "name": "紫阳古街",
+      "address": "台州市临海市老城区紫阳街（全长 1080 米，靖越门至括苍门一带）",
+      "city": "临海",
+      "desc": "免费，临海市景点好评榜第 5 名，千年古街",
+      "icon": "landmark",
+      "emoji": "🏮",
+      "color": "#15803d",
+      "tags": [
+        "临海",
+        "景点",
+        "临海古城片区"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%23476b45%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23c8a968%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%AE%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E7%B4%AB%E9%98%B3%E5%8F%A4%E8%A1%97%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 5,
+      "region": "临海古城片区"
+    },
+    {
+      "id": "lh-poi-b67b7ef4",
+      "type": "poi",
+      "name": "台州府城墙（江南长城）",
+      "address": "台州市临海市东湖路与泉井洋路交叉口附近（兴善门/揽胜门入口）",
+      "city": "临海",
+      "desc": "门票¥55 起，临海市人文古迹好评榜第 1 名，国家 5A 级景区",
+      "icon": "landmark",
+      "emoji": "🏰",
+      "color": "#15803d",
+      "tags": [
+        "临海",
+        "景点",
+        "临海古城片区"
+      ],
+      "image": "",
+      "imageFallback": "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20900%20520%27%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20x2%3D%271%27%20y1%3D%270%27%20y2%3D%271%27%3E%0A%3Cstop%20stop-color%3D%27%232e7d7b%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%239fd8c7%27/%3E%0A%3C/linearGradient%3E%0A%3Cfilter%20id%3D%27s%27%3E%3CfeDropShadow%20dx%3D%270%27%20dy%3D%2714%27%20stdDeviation%3D%2718%27%20flood-color%3D%27%2310251f%27%20flood-opacity%3D%27.16%27/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width%3D%27900%27%20height%3D%27520%27%20fill%3D%27url%28%23g%29%27/%3E%0A%3Ccircle%20cx%3D%2795%27%20cy%3D%2780%27%20r%3D%2788%27%20fill%3D%27rgba%28255%2C255%2C255%2C.18%29%27/%3E%0A%3Ccircle%20cx%3D%27795%27%20cy%3D%27415%27%20r%3D%27145%27%20fill%3D%27rgba%28255%2C255%2C255%2C.16%29%27/%3E%0A%3Cpath%20d%3D%27M0%20390%20C145%20330%20300%20455%20450%20370%20C615%20285%20710%20345%20900%20255%20L900%20520%20L0%20520Z%27%20fill%3D%27rgba%28255%2C255%2C255%2C.24%29%27/%3E%0A%3Cg%20filter%3D%27url%28%23s%29%27%3E%0A%3Crect%20x%3D%2795%27%20y%3D%2786%27%20width%3D%27710%27%20height%3D%27348%27%20rx%3D%2742%27%20fill%3D%27rgba%28255%2C255%2C255%2C.25%29%27%20stroke%3D%27rgba%28255%2C255%2C255%2C.55%29%27/%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27210%27%20text-anchor%3D%27middle%27%20font-size%3D%2778%27%20font-family%3D%27Arial%27%3E%F0%9F%8F%B0%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27292%27%20text-anchor%3D%27middle%27%20fill%3D%27%23fff%27%20font-size%3D%2742%27%20font-weight%3D%27800%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%B0%E5%B7%9E%E5%BA%9C%E5%9F%8E%E5%A2%99%EF%BC%88%E6%B1%9F%E5%8D%97%E9%95%BF%E5%9F%8E%EF%BC%89%3C/text%3E%0A%3Ctext%20x%3D%27450%27%20y%3D%27345%27%20text-anchor%3D%27middle%27%20fill%3D%27rgba%28255%2C255%2C255%2C.92%29%27%20font-size%3D%2724%27%20font-family%3D%27Arial%2C%20sans-serif%27%3E%E5%8F%AF%E5%9C%A8%E7%BC%96%E8%BE%91%E5%85%A5%E5%8F%A3%E6%9B%BF%E6%8D%A2%E5%AE%9E%E6%8B%8D%E5%9B%BE%3C/text%3E%0A%3C/g%3E%0A%3C/svg%3E",
+      "rating": 5,
+      "region": "临海古城片区"
+    },
+    {
+      "id": "tz-extra-f0516625",
+      "type": "food",
+      "name": "花园菜市场",
+      "address": "台州市椒江区花园路（花园路菜市场）",
+      "city": "台州",
+      "desc": "集市，人均约¥46，2026 年入围玩乐地",
+      "icon": "store",
+      "emoji": "🛒",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "菜场/集市",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "椒江区"
+    },
+    {
+      "id": "tz-extra-508f7f75",
+      "type": "hotel",
+      "name": "台州市府大道市政府亚朵酒店",
+      "address": "台州市椒江区市府大道（近台州海洋世界）",
+      "city": "台州",
+      "desc": "高档型酒店，评分 4.7",
+      "icon": "hotel",
+      "emoji": "🏨",
+      "color": "#c75a12",
+      "tags": [
+        "台州",
+        "住宿",
+        "椒江区"
+      ],
+      "image": "",
+      "rating": 4,
+      "region": "椒江区"
+    }
+  ],
+  "regions": [
+    {
+      "id": "region-b13993ae",
+      "city": "上海",
+      "name": "上海出发点",
+      "color": "#A0C4FF",
+      "center": [
+        121.381,
+        31.188
+      ],
+      "desc": "本次自驾集合出发点。",
+      "pointIds": [
+        "sh-start"
+      ],
+      "pos": {
+        "left": "8%",
+        "top": "16%"
+      }
+    },
+    {
+      "id": "region-78271e61",
+      "city": "临海",
+      "name": "临海古城片区",
+      "color": "#CDE990",
+      "center": [
+        121.126,
+        28.852
+      ],
+      "desc": "台州临海核心游玩区，府城墙、紫阳街、东湖、龙兴寺可步行串联。",
+      "pointIds": [
+        "lh-ancient",
+        "lh-ziyang",
+        "lh-donghu",
+        "lh-longxing",
+        "food-lh",
+        "lh-food-62163f36",
+        "lh-food-3f203048",
+        "lh-food-6cf9a00d",
+        "lh-food-2e3cc7f1",
+        "lh-food-8756c694",
+        "lh-food-bb39a527",
+        "lh-food-a378e973",
+        "lh-food-98328721",
+        "lh-poi-c35ef490",
+        "lh-poi-6620e56d",
+        "lh-poi-b67b7ef4"
+      ],
+      "pos": {
+        "left": "8%",
+        "top": "14%"
+      }
+    },
+    {
+      "id": "region-780beb06",
+      "city": "临海",
+      "name": "临海市",
+      "color": "#AACB73",
+      "center": [
+        121.13,
+        28.85
+      ],
+      "desc": "临海补充点位与周边美食。",
+      "pointIds": [
+        "lh-food-800a6ff1",
+        "lh-food-e4b8fc4d",
+        "lh-poi-6b0028e8"
+      ],
+      "pos": {
+        "left": "60%",
+        "top": "20%"
+      }
+    },
+    {
+      "id": "region-fb06f262",
+      "city": "台州",
+      "name": "椒江区",
+      "color": "#B6E2A1",
+      "center": [
+        121.42,
+        28.66
+      ],
+      "desc": "台州市中心住宿、葭沚老街、夜游与餐饮重点区。",
+      "pointIds": [
+        "tz-hotel",
+        "tz-jiazhi",
+        "tz-jiaojiang-old",
+        "tz-museum",
+        "tz-park",
+        "food-tz",
+        "tz-food-126b99a1",
+        "tz-food-8d51d248",
+        "tz-food-fc19350a",
+        "tz-food-51127989",
+        "tz-food-d990323d",
+        "tz-food-e2915161",
+        "tz-food-33916f92",
+        "tz-food-7917ce61",
+        "tz-food-ad78f424",
+        "tz-food-f95b7514",
+        "tz-food-950c97e4",
+        "tz-food-83b5d54f",
+        "tz-food-8f31c0ce",
+        "tz-food-17276a82",
+        "tz-food-261c9fb7",
+        "tz-food-09f035b4",
+        "tz-food-f652a53e",
+        "tz-food-699aeda4",
+        "tz-food-0d10351a",
+        "tz-food-d30280b1",
+        "tz-food-fd9456c5",
+        "tz-food-9af63294",
+        "tz-food-d09914bf",
+        "tz-food-45d3bd20",
+        "tz-food-c51da7f0",
+        "tz-food-64e69d80",
+        "tz-food-a15a8b90",
+        "tz-food-286b38a8",
+        "tz-food-843d9efe",
+        "tz-food-9b2c15da",
+        "tz-food-51ba64d8",
+        "tz-poi-5705d354",
+        "tz-poi-6ba7ce82",
+        "tz-poi-41c25070",
+        "tz-extra-f0516625",
+        "tz-extra-508f7f75"
+      ],
+      "pos": {
+        "left": "6%",
+        "top": "12%"
+      }
+    },
+    {
+      "id": "region-97d7a5da",
+      "city": "宁波",
+      "name": "奉化区",
+      "color": "#9BCDD2",
+      "center": [
+        121.55,
+        29.87
+      ],
+      "desc": "宁波奉化区推荐点位。",
+      "pointIds": [
+        "nb-food-2a432076bb"
+      ],
+      "pos": {
+        "left": "45%",
+        "top": "42%"
+      }
+    },
+    {
+      "id": "region-680028ab",
+      "city": "宁波",
+      "name": "慈溪市",
+      "color": "#9BCDD2",
+      "center": [
+        121.55,
+        29.87
+      ],
+      "desc": "宁波慈溪市推荐点位。",
+      "pointIds": [
+        "nb-food-84857065d6"
+      ],
+      "pos": {
+        "left": "45%",
+        "top": "42%"
+      }
+    },
+    {
+      "id": "region-fe93d92c",
+      "city": "宁波",
+      "name": "江北区",
+      "color": "#B7C4CF",
+      "center": [
+        121.56,
+        29.89
+      ],
+      "desc": "江北老外滩与江边夜景片区。",
+      "pointIds": [
+        "nb-laowaitan",
+        "nb-food-813cdfa061",
+        "nb-food-ced1ee229b",
+        "nb-poi-8ef2025090"
+      ],
+      "pos": {
+        "left": "5%",
+        "top": "56%"
+      }
+    },
+    {
+      "id": "region-9d8d37cd",
+      "city": "宁波",
+      "name": "海曙区",
+      "color": "#7FB77E",
+      "center": [
+        121.54,
+        29.87
+      ],
+      "desc": "宁波老城核心区，适合 citywalk、文化景点、汤圆年糕和小吃。",
+      "pointIds": [
+        "nb-hotel",
+        "nb-tianyige",
+        "nb-yuehu",
+        "nb-gulou",
+        "nb-nantang",
+        "food-nb",
+        "nb-food-b5922bca27",
+        "nb-food-ddc4fed382",
+        "nb-food-71e73ba16b",
+        "nb-food-5fdd055bde",
+        "nb-food-1bd090ecee",
+        "nb-food-e1f7089343",
+        "nb-food-e1103e5a5e",
+        "nb-food-9444afca46",
+        "nb-food-8f5cb8ca35",
+        "nb-food-ab0f8bc11a",
+        "nb-food-9e655bec01",
+        "nb-food-8a63f9087a",
+        "nb-food-fed9c286cc",
+        "nb-food-e1c243780b",
+        "nb-food-170f4f89f5",
+        "nb-food-bff2f8f059",
+        "nb-food-ccc6ca5e5a",
+        "nb-food-6f6b6ccdb9",
+        "nb-food-e130d7b1dc",
+        "nb-food-5faad19d96",
+        "nb-food-5311d71adc",
+        "nb-food-55a7c77a01",
+        "nb-food-273093a423",
+        "nb-food-54a43b5225",
+        "nb-food-029e623c77",
+        "nb-food-a160dcf41c",
+        "nb-food-4b3f4b1033",
+        "nb-food-529e9ea72e",
+        "nb-food-296c6f8dcb",
+        "nb-food-87d137c6f7",
+        "nb-food-9184b538f3",
+        "nb-food-fc4058c4b8",
+        "nb-food-45d526fbda",
+        "nb-food-4a230c511d",
+        "nb-food-cdb030eb26",
+        "nb-food-3d5e996cb7",
+        "nb-food-86433762e1",
+        "nb-poi-5cd3c26416",
+        "nb-poi-f92845976a",
+        "nb-poi-6600548271"
+      ],
+      "pos": {
+        "left": "4%",
+        "top": "8%"
+      }
+    },
+    {
+      "id": "region-14429c70",
+      "city": "宁波",
+      "name": "鄞州区",
+      "color": "#8EC3B0",
+      "center": [
+        121.59,
+        29.82
+      ],
+      "desc": "宁波东南生活片区，咖啡、甜品、东钱湖和新商圈选择较多。",
+      "pointIds": [
+        "nb-food-c6b7707b84",
+        "nb-food-9350f83b72",
+        "nb-food-a956ad717c",
+        "nb-food-e306612fb8",
+        "nb-food-5f83910670",
+        "nb-food-c4b2f8a7ac",
+        "nb-food-3bd782cb0e",
+        "nb-food-58950284b6",
+        "nb-food-288426d620",
+        "nb-food-750be0b3a9",
+        "nb-food-7586e4fc3f",
+        "nb-food-2e0052f7c0",
+        "nb-food-84240a960f",
+        "nb-food-2e5a64648d",
+        "nb-food-e83f447c80",
+        "nb-food-527def532d",
+        "nb-food-eb50b8a45f",
+        "nb-food-5166765d50",
+        "nb-food-b3352fec53",
+        "nb-food-186999b3b4",
+        "nb-food-ea4023ee1f",
+        "nb-food-ae98eb9edb",
+        "nb-food-c653ceca2f",
+        "nb-food-9da509e1d7",
+        "nb-food-bcbf87f12b",
+        "nb-food-fe6cd9039d",
+        "nb-food-a72512f5dd",
+        "nb-food-8bc6e0b54f",
+        "nb-food-6607cc6622",
+        "nb-poi-55c10d1126",
+        "nb-poi-d642a52908",
+        "nb-poi-3bfa1eca3d"
+      ],
+      "pos": {
+        "left": "63%",
+        "top": "10%"
+      }
+    },
+    {
+      "id": "region-8380a2ba",
+      "city": "宁波",
+      "name": "镇海区",
+      "color": "#9BCDD2",
+      "center": [
+        121.55,
+        29.87
+      ],
+      "desc": "宁波镇海区推荐点位。",
+      "pointIds": [
+        "nb-food-2ad9f10d67"
+      ],
+      "pos": {
+        "left": "45%",
+        "top": "42%"
+      }
+    }
+  ]
+}
